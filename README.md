@@ -104,6 +104,29 @@ python main.py path/to/gedcom_file.ged --list-individuals --relaxed
 python main.py path/to/gedcom_file.ged --individual @XREF_ID@ --relaxed
 ```
 
+## Generating Test GEDCOM Files
+
+The tool includes a test GEDCOM generator that can create sample files for different GEDCOM versions:
+
+```bash
+# Generate a GEDCOM 5.5.5 file with 50 people across 3 generations
+python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num-people 50 --num-generations 3 --v555 --output test_data.ged
+
+# Generate a GEDCOM 4.0 file (for testing older formats)
+python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num-people 20 --num-generations 2 --v40 --output test_40.ged
+
+# Generate a GEDCOM 7.0 file
+python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num-people 30 --num-generations 3 --v70 --output test_70.ged
+```
+
+The generator supports the following options:
+- `--v40`: GEDCOM 4.0 (ASCII encoding, basic format)
+- `--v551`: GEDCOM 5.5.1 (ASCII encoding, with FORM tag) - Default if no version specified
+- `--v555`: GEDCOM 5.5.5 (UTF-8 with BOM, stricter validation)
+- `--v70`: GEDCOM 7.0 (UTF-8 encoding, latest standard)
+
+Generated files contain realistic individuals with events, attributes, and family relationships. Each file is encoded appropriately for its GEDCOM version.
+
 ## GEDCOM Support
 
 ### Strict Mode (Default)
@@ -262,6 +285,7 @@ gedcom-browser/
 ├── main.py                  # CLI interface and command handling
 ├── anonymize_gedcom.py      # GEDCOM anonymization tool
 ├── anonymization_mapping.py # Helper for consistent anonymization (optional)
+├── create-test-gedcom.py    # Generate test GEDCOM files with multiple versions
 ├── requirements.txt         # Project dependencies
 ├── setup.py                 # Package setup
 ├── ROADMAP.md               # Future development plans
@@ -269,7 +293,8 @@ gedcom-browser/
 │   ├── __init__.py
 │   ├── test_gedcom_parser.py
 │   ├── test_gedcom_browser.py
-│   └── test_anonymizer.py
+│   ├── test_anonymizer.py
+│   └── test_gedcom_generator.py
 └── test_files/              # Sample GEDCOM files for testing
     ├── valid_simple.ged
     ├── valid_with_notes.ged
@@ -353,6 +378,7 @@ To add new functionality:
 2. **New Commands**: Update the argument parser and command handling in `main.py`
 3. **New Output Formats**: Modify the display functions in `main.py`
 4. **Advanced Anonymization**: Enhance the `GedcomAnonymizer` class in `anonymize_gedcom.py`
+5. **Test Data Generation**: Update options in `create-test-gedcom.py` to simulate different GEDCOM versions
 
 See the `ROADMAP.md` file for planned future enhancements.
 

@@ -36,7 +36,7 @@ PHON_PATTERN = re.compile(r"^(\d+\s+PHON\s+)(.+)$")
 WWW_PATTERN = re.compile(r"^(\d+\s+WWW\s+)(.+)$")
 
 # Pattern to extract names from GEDCOM NAME field
-GEDCOM_NAME_PARTS = re.compile(r"^(.*?)(?:/([^/]+)/)?(.*)$")
+GEDCOM_NAME_PARTS = re.compile(r"^([^/]*)\s*/([^/]*)/\s*(.*)$")
 
 
 class GedcomAnonymizer:
@@ -64,9 +64,11 @@ class GedcomAnonymizer:
         self.url_map = {}
         self.address_map = {}
 
+        # Create a new Faker instance for this anonymizer
+        self.fake = Faker()
         # Set random seed
         random.seed(seed)
-        fake.seed_instance(seed)
+        self.fake.seed_instance(seed)
 
         # Load existing mappings if provided
         if mapping_file and os.path.exists(mapping_file):
@@ -138,11 +140,11 @@ class GedcomAnonymizer:
 
         # Generate a new name based on gender
         if gender == "M":
-            fake_name = fake.first_name_male()
+            fake_name = self.fake.first_name_male()
         elif gender == "F":
-            fake_name = fake.first_name_female()
+            fake_name = self.fake.first_name_female()
         else:
-            fake_name = fake.first_name()
+            fake_name = self.fake.first_name()
 
         # Store the mapping
         self.given_name_map[name] = fake_name
@@ -167,7 +169,7 @@ class GedcomAnonymizer:
             return self.surname_map[surname]
 
         # Generate a new surname
-        fake_surname = fake.last_name()
+        fake_surname = self.fake.last_name()
 
         # Store the mapping
         self.surname_map[surname] = fake_surname
@@ -234,13 +236,13 @@ class GedcomAnonymizer:
         anonymized_parts = []
         for i, part in enumerate(parts):
             if i == 0:  # First component is usually a city/town
-                anonymized_parts.append(fake.city())
+                anonymized_parts.append(self.fake.city())
             elif i == len(parts) - 1:  # Last component is usually a country
-                anonymized_parts.append(fake.country())
+                anonymized_parts.append(self.fake.country())
             elif i == len(parts) - 2:  # Second-to-last is usually a state/province
-                anonymized_parts.append(fake.state())
+                anonymized_parts.append(self.fake.state())
             else:  # Other components could be counties, districts, etc.
-                anonymized_parts.append(fake.state())
+                anonymized_parts.append(self.fake.state())
 
         # Reconstruct the place name
         anonymized_place = ", ".join(anonymized_parts)
@@ -267,7 +269,7 @@ class GedcomAnonymizer:
             return self.email_map[email]
 
         # Generate a new email
-        fake_email = fake.email()
+        fake_email = self.fake.email()
 
         # Store the mapping
         self.email_map[email] = fake_email
@@ -291,7 +293,7 @@ class GedcomAnonymizer:
             return self.phone_map[phone]
 
         # Generate a new phone number
-        fake_phone = fake.phone_number()
+        fake_phone = self.fake.phone_number()
 
         # Store the mapping
         self.phone_map[phone] = fake_phone
@@ -315,7 +317,7 @@ class GedcomAnonymizer:
             return self.url_map[url]
 
         # Generate a new URL
-        fake_url = fake.url()
+        fake_url = self.fake.url()
 
         # Store the mapping
         self.url_map[url] = fake_url
@@ -339,7 +341,7 @@ class GedcomAnonymizer:
             return self.address_map[address]
 
         # Generate a new address
-        fake_address = fake.address().replace("\n", ", ")
+        fake_address = self.fake.address().replace("\n", ", ")
 
         # Store the mapping
         self.address_map[address] = fake_address
@@ -527,7 +529,8 @@ def anonymize_gedcom_file(
         if name_match:
             prefix, name = name_match.groups()
             anonymized_name = anonymizer.anonymize_gedcom_name(name)
-            anonymized_line = f"{prefix}{anonymized_name}"
+            # The prefix already contains a space, so ensure we don't add an extra one
+            anonymized_line = f"{prefix}{anonymized_name.strip()}"
             anonymized_content.append(anonymized_line)
             name_count += 1
             continue
@@ -544,14 +547,14 @@ def anonymize_gedcom_file(
             original_given = individual_names[current_individual]["given"]
             if original_given in anonymizer.given_name_map:
                 anonymized_given = anonymizer.given_name_map[original_given]
-                anonymized_line = f"{prefix}{anonymized_given}"
+                anonymized_line = f"{prefix}{anonymized_given.strip()}"
                 anonymized_content.append(anonymized_line)
                 name_count += 1
                 continue
         elif givn_match:
             prefix, given_name = givn_match.groups()
             anonymized_given = anonymizer.anonymize_given_name(given_name, gender)
-            anonymized_line = f"{prefix}{anonymized_given}"
+            anonymized_line = f"{prefix}{anonymized_given.strip()}"
             anonymized_content.append(anonymized_line)
             name_count += 1
             continue
@@ -568,14 +571,14 @@ def anonymize_gedcom_file(
             original_surname = individual_names[current_individual]["surname"]
             if original_surname in anonymizer.surname_map:
                 anonymized_surname = anonymizer.surname_map[original_surname]
-                anonymized_line = f"{prefix}{anonymized_surname}"
+                anonymized_line = f"{prefix}{anonymized_surname.strip()}"
                 anonymized_content.append(anonymized_line)
                 name_count += 1
                 continue
         elif surn_match:
             prefix, surname = surn_match.groups()
             anonymized_surname = anonymizer.anonymize_surname(surname)
-            anonymized_line = f"{prefix}{anonymized_surname}"
+            anonymized_line = f"{prefix}{anonymized_surname.strip()}"
             anonymized_content.append(anonymized_line)
             name_count += 1
             continue
@@ -585,7 +588,7 @@ def anonymize_gedcom_file(
         if place_match:
             prefix, place = place_match.groups()
             anonymized_place = anonymizer.anonymize_place(place)
-            anonymized_line = f"{prefix}{anonymized_place}"
+            anonymized_line = f"{prefix}{anonymized_place.strip()}"
             anonymized_content.append(anonymized_line)
             place_count += 1
             continue
@@ -595,7 +598,7 @@ def anonymize_gedcom_file(
         if email_match:
             prefix, email = email_match.groups()
             anonymized_email = anonymizer.anonymize_email(email)
-            anonymized_line = f"{prefix}{anonymized_email}"
+            anonymized_line = f"{prefix}{anonymized_email.strip()}"
             anonymized_content.append(anonymized_line)
             other_count += 1
             continue
@@ -605,7 +608,7 @@ def anonymize_gedcom_file(
         if phone_match:
             prefix, phone = phone_match.groups()
             anonymized_phone = anonymizer.anonymize_phone(phone)
-            anonymized_line = f"{prefix}{anonymized_phone}"
+            anonymized_line = f"{prefix}{anonymized_phone.strip()}"
             anonymized_content.append(anonymized_line)
             other_count += 1
             continue
@@ -615,7 +618,7 @@ def anonymize_gedcom_file(
         if addr_match:
             prefix, addr = addr_match.groups()
             anonymized_addr = anonymizer.anonymize_address(addr)
-            anonymized_line = f"{prefix}{anonymized_addr}"
+            anonymized_line = f"{prefix}{anonymized_addr.strip()}"
             anonymized_content.append(anonymized_line)
             other_count += 1
             continue
@@ -625,7 +628,7 @@ def anonymize_gedcom_file(
         if www_match:
             prefix, url = www_match.groups()
             anonymized_url = anonymizer.anonymize_url(url)
-            anonymized_line = f"{prefix}{anonymized_url}"
+            anonymized_line = f"{prefix}{anonymized_url.strip()}"
             anonymized_content.append(anonymized_line)
             other_count += 1
             continue
