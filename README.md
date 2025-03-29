@@ -1,6 +1,6 @@
 # GEDCOM Browser
 
-A powerful Python tool for browsing and validating genealogical data in GEDCOM format, with strict support for GEDCOM 5.5.5 and compatibility for other versions.
+A powerful Python tool for browsing, validating, and anonymizing genealogical data in GEDCOM format, with strict support for GEDCOM 5.5.5 and compatibility for other versions.
 
 ## Features
 
@@ -25,6 +25,12 @@ A powerful Python tool for browsing and validating genealogical data in GEDCOM f
   - Explore family relationships
   - View events, attributes, and notes
   - Search for specific individuals
+  
+- **Advanced Anonymization**
+  - Generate realistic fake names, places, and contact information
+  - Preserve gender and relationships
+  - Consistent anonymization across multiple files
+  - Support for emails, phone numbers, addresses, and URLs
 
 ## Installation
 
@@ -42,6 +48,10 @@ cd gedcom-browser
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+The required dependencies include:
+- `faker`: Generates realistic fake data for anonymization
+- Development dependencies like `pytest`, `pytest-cov`, `flake8`, `mypy`, and `black` for testing and code quality
 
 ## Usage
 
@@ -146,9 +156,80 @@ Relaxed mode attempts to handle various encoding types and format quirks found i
 - Different formatting for some fields
 - Primarily uses UTF-8 encoding
 
+## Anonymizing GEDCOM Files
+
+The GEDCOM Browser includes a powerful anonymization tool to protect personal data while preserving the structure and relationships in genealogical files.
+
+### Basic Anonymization
+
+To anonymize a single GEDCOM file:
+
+```bash
+python anonymize_gedcom.py --file path/to/gedcom_file.ged
+```
+
+This will create a new file with the suffix `_anonymized` (e.g., `gedcom_file_anonymized.ged`).
+
+### Anonymizing a Directory
+
+To anonymize all GEDCOM files in a directory:
+
+```bash
+python anonymize_gedcom.py --directory path/to/directory
+```
+
+Add the `--recursive` flag to process subdirectories:
+
+```bash
+python anonymize_gedcom.py --directory path/to/directory --recursive
+```
+
+### Overwriting Original Files
+
+By default, the anonymizer creates new files. To overwrite the original files:
+
+```bash
+python anonymize_gedcom.py --file path/to/gedcom_file.ged --overwrite
+```
+
+### Specifying Output Path
+
+For single files, you can specify an output path:
+
+```bash
+python anonymize_gedcom.py --file path/to/gedcom_file.ged --output path/to/output.ged
+```
+
+### Reproducible Anonymization
+
+Set a random seed for reproducible results:
+
+```bash
+python anonymize_gedcom.py --file path/to/gedcom_file.ged --seed 12345
+```
+
+### Consistent Anonymization Across Runs
+
+To maintain consistent anonymization mappings across multiple runs:
+
+```bash
+python anonymize_gedcom.py --file path/to/gedcom_file.ged --mapping-file mappings.pkl
+```
+
+This saves the name mappings to the specified file and loads them for future runs.
+
+### Anonymization Features
+
+The anonymizer preserves:
+- GEDCOM structure and record relationships
+- Gender-appropriate names (male names replaced with male names, etc.)
+- File encodings and Byte Order Marks (BOMs)
+- Consistent mapping of original to fake names
+- Special tags like GIVN, SURN, PLAC, EMAIL, PHON, ADDR, and WWW
+
 ## Architecture
 
-The GEDCOM Browser consists of three main components:
+The GEDCOM Browser consists of four main components:
 
 1. **GEDCOM Parser (`gedcom_parser.py`)**
    - Parses and validates GEDCOM files
@@ -164,6 +245,11 @@ The GEDCOM Browser consists of three main components:
    - Command-line interface
    - Handles user arguments
    - Displays formatted output
+   
+4. **Anonymizer (`anonymize_gedcom.py`)**
+   - Anonymizes personal data in GEDCOM files
+   - Generates realistic fake names, places, and contact information
+   - Preserves gender, relationships, and file structure
 
 ## Development
 
@@ -171,16 +257,20 @@ The GEDCOM Browser consists of three main components:
 
 ```
 gedcom-browser/
-├── gedcom_parser.py     # Core GEDCOM parsing and validation
-├── gedcom_browser.py    # Higher-level browsing functionality
-├── main.py              # CLI interface and command handling
-├── requirements.txt     # Project dependencies
-├── setup.py             # Package setup
-├── tests/               # Test suite
+├── gedcom_parser.py         # Core GEDCOM parsing and validation
+├── gedcom_browser.py        # Higher-level browsing functionality
+├── main.py                  # CLI interface and command handling
+├── anonymize_gedcom.py      # GEDCOM anonymization tool
+├── anonymization_mapping.py # Helper for consistent anonymization (optional)
+├── requirements.txt         # Project dependencies
+├── setup.py                 # Package setup
+├── ROADMAP.md               # Future development plans
+├── tests/                   # Test suite
 │   ├── __init__.py
 │   ├── test_gedcom_parser.py
-│   └── test_gedcom_browser.py
-└── test_files/          # Sample GEDCOM files for testing
+│   ├── test_gedcom_browser.py
+│   └── test_anonymizer.py
+└── test_files/              # Sample GEDCOM files for testing
     ├── valid_simple.ged
     ├── valid_with_notes.ged
     └── valid_complex.ged
@@ -217,6 +307,37 @@ mypy .
 
 # Run pytest with coverage
 pytest --cov=.
+
+# Test anonymization functionality
+pytest tests/test_anonymizer.py
+```
+
+### Using the Anonymizer as a Library
+
+You can also use the anonymization functionality programmatically in your own scripts:
+
+```python
+from anonymize_gedcom import GedcomAnonymizer, anonymize_gedcom_file
+
+# Create an anonymizer with custom settings
+anonymizer = GedcomAnonymizer(
+    seed=42,
+    preserve_structure=True,
+    mapping_file="mappings.pkl"
+)
+
+# Anonymize a single file
+anonymized_file = anonymize_gedcom_file(
+    "input.ged",
+    "output.ged",
+    anonymizer=anonymizer
+)
+
+# The GedcomAnonymizer class provides methods to anonymize specific data types:
+fake_name = anonymizer.anonymize_given_name("John", gender="M")
+fake_surname = anonymizer.anonymize_surname("Smith")
+fake_place = anonymizer.anonymize_place("New York, NY")
+fake_email = anonymizer.anonymize_email("john@example.com")
 ```
 
 ## GEDCOM 5.5.5 Specification
@@ -231,6 +352,9 @@ To add new functionality:
 1. **New Record Types**: Add parsing in `gedcom_parser.py` and accessor methods in `gedcom_browser.py`
 2. **New Commands**: Update the argument parser and command handling in `main.py`
 3. **New Output Formats**: Modify the display functions in `main.py`
+4. **Advanced Anonymization**: Enhance the `GedcomAnonymizer` class in `anonymize_gedcom.py`
+
+See the `ROADMAP.md` file for planned future enhancements.
 
 ## License
 
