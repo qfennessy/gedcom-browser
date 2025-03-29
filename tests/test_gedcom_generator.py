@@ -188,6 +188,7 @@ class TestGedcomGenerator(unittest.TestCase):
             'num_generations': 1,
             'seed': self.seed,
             'region': None,
+            'culture': None,
             'v40': True,
             'v551': False,
             'v555': False,
