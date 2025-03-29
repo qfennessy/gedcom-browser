@@ -1,0 +1,685 @@
+﻿0 HEAD
+1 SOUR GEDCOM-GENERATOR
+2 VERS 1.0
+2 NAME Joseph
+1 DEST GEDCOM-BROWSER
+1 DATE 28 MAR 2025
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I9E798BDF@ INDI
+1 NAME Jason/Smith/
+2 GIVN Jason
+2 SURN Smith
+1 SEX M
+1 BIRT
+2 DATE 07 SEP 1928
+2 PLAC Lindsaybury, Delaware, Tunisia
+1 DEAT
+2 DATE 07 MAY 1971
+2 PLAC Robinsonside, Texas, Colombia
+1 BURI
+2 DATE 10 MAY 1971
+2 PLAC Robinsonside, Texas, Colombia
+1 GRAD
+2 DATE 28 MAY 1951
+2 PLAC Briannahaven, Florida, Armenia
+1 EMIG
+2 DATE 16 NOV 1948
+2 PLAC West Tonya, Alabama, Canada
+1 EDUC Doctorate
+2 DATE 04 AUG 1953
+2 PLAC West Amber, Hawaii, Hungary
+1 NATI Cape Verde
+2 DATE 12 FEB 1969
+2 PLAC Alexanderton, Virginia, Kenya
+1 OCCU Chief Strategy Officer
+2 DATE 08 FEB 1971
+2 PLAC South Virginiaburgh, Alabama, Sierra Leone
+1 OCCU Psychiatric nurse
+2 DATE 18 DEC 1944
+2 PLAC Jasonhaven, Wisconsin, British Virgin Islands
+1 RESI 
+2 DATE 12 DEC 1943
+2 PLAC Howelltown, South Dakota, Liechtenstein
+1 RESI 
+2 DATE 05 MAY 1938
+2 PLAC Kelseychester, Oklahoma, Cook Islands
+0 @IF225372C@ INDI
+1 NAME Roger/Evans/
+2 GIVN Roger
+2 SURN Evans
+1 SEX M
+1 BIRT
+2 DATE 06 FEB 1915
+2 PLAC Kaylaville, Oklahoma, Canada
+1 DEAT
+2 DATE 06 OCT 1941
+2 PLAC South Frederickmouth, Iowa, Costa Rica
+1 BURI
+2 DATE 12 OCT 1941
+2 PLAC South Frederickmouth, Iowa, Costa Rica
+1 NATI Pitcairn Islands
+2 DATE 01 OCT 1940
+2 PLAC East Keith, Ohio, Bermuda
+1 OCCU Development worker, community
+2 DATE 27 DEC 1938
+2 PLAC East Aaronfort, Idaho, Syrian Arab Republic
+1 OCCU Journalist, broadcasting
+2 DATE 03 JUL 1938
+2 PLAC West Williamfurt, California, Somalia
+1 RELI Protestant
+2 DATE 02 MAY 1934
+2 PLAC Butlerbury, Idaho, Anguilla
+1 RESI 
+2 DATE 24 FEB 1932
+2 PLAC Markfurt, Idaho, Christmas Island
+1 RESI 
+2 DATE 19 JUN 1931
+2 PLAC South William, Nebraska, Greece
+0 @I660D661F@ INDI
+1 NAME Isabella/Lee/
+2 GIVN Isabella
+2 SURN Lee
+1 SEX F
+1 BIRT
+2 DATE 19 APR 1907
+2 PLAC North Dawnborough, South Dakota, Nigeria
+1 GRAD
+2 DATE 15 MAR 1927
+2 PLAC Lake Derek, Iowa, Greenland
+1 EDUC College
+2 DATE 02 APR 1973
+2 PLAC Davidhaven, Vermont, Sierra Leone
+1 NATI Hungary
+2 DATE 20 APR 1928
+2 PLAC West Kimberlyton, Mississippi, South Georgia and the South Sandwich Islands
+1 OCCU Surgeon
+2 DATE 02 AUG 1951
+2 PLAC Lake Katherineberg, Mississippi, Turkmenistan
+1 RELI Islamic
+2 DATE 22 MAR 1929
+2 PLAC West Juliestad, Montana, Gambia
+1 RESI 
+2 DATE 31 JAN 1952
+2 PLAC Bishopport, West Virginia, Lithuania
+1 RESI 
+2 DATE 19 DEC 1964
+2 PLAC Williamsmouth, Alaska, Cyprus
+1 RESI 
+2 DATE 22 JAN 1931
+2 PLAC Derektown, Utah, Niue
+0 @ID57ECDE5@ INDI
+1 NAME Keith/Martin/
+2 GIVN Keith
+2 SURN Martin
+1 SEX M
+1 BIRT
+2 DATE 07 APR 1906
+2 PLAC North Danielborough, Montana, Liechtenstein
+1 EDUC High School
+2 DATE 24 JUN 1926
+2 PLAC West Michael, Maryland, Saint Kitts and Nevis
+1 NATI Dominican Republic
+2 DATE 09 AUG 1936
+2 PLAC Meghanland, South Carolina, Gabon
+1 OCCU Comptroller
+2 DATE 14 DEC 1927
+2 PLAC Kristenton, Nebraska, Comoros
+1 OCCU Geochemist
+2 DATE 18 SEP 1975
+2 PLAC North Douglas, Maryland, Djibouti
+1 RELI Catholic
+2 DATE 20 NOV 1971
+2 PLAC Rogertown, Georgia, Brazil
+1 RESI 
+2 DATE 09 JUN 1954
+2 PLAC Port Wendyfurt, Massachusetts, Tonga
+0 @I0E363B49@ INDI
+1 NAME Becky/Hamilton/
+2 GIVN Becky
+2 SURN Hamilton
+1 SEX F
+1 BIRT
+2 DATE 20 APR 1945
+2 PLAC East Coryberg, Pennsylvania, Costa Rica
+1 DEAT
+2 DATE 17 APR 2002
+2 PLAC Ashleystad, Hawaii, Saint Vincent and the Grenadines
+1 BURI
+2 DATE 18 APR 2002
+2 PLAC Ashleystad, Hawaii, Saint Vincent and the Grenadines
+1 EMIG
+2 DATE 23 JAN 1966
+2 PLAC Benjaminland, Connecticut, Marshall Islands
+1 EDUC College
+2 DATE 09 AUG 1988
+2 PLAC New William, Nebraska, Malta
+1 NATI Turkmenistan
+2 DATE 29 JUN 1995
+2 PLAC Port Aprilshire, Ohio, Greece
+1 OCCU Chief Marketing Officer
+2 DATE 20 MAR 1996
+2 PLAC South Robert, Alaska, Holy See (Vatican City State)
+1 RESI 
+2 DATE 18 FEB 1989
+2 PLAC Port Paulside, Texas, Nepal
+1 FAMS @F04AE56C7@
+0 @IA2413C45@ INDI
+1 NAME Justin/Thompson/
+2 GIVN Justin
+2 SURN Thompson
+1 SEX M
+1 BIRT
+2 DATE 17 MAR 1934
+2 PLAC West Thomaston, Massachusetts, Germany
+1 GRAD
+2 DATE 22 JUL 1958
+2 PLAC Owenberg, Missouri, Mongolia
+1 IMMI
+2 DATE 30 DEC 1971
+2 PLAC New Danielville, Connecticut, Nicaragua
+1 NATI Pakistan
+2 DATE 23 JUN 1961
+2 PLAC North Shelby, Maryland, Syrian Arab Republic
+1 OCCU Radiographer, diagnostic
+2 DATE 09 JUL 1999
+2 PLAC New Colin, New York, Latvia
+1 RELI Orthodox
+2 DATE 14 JUL 1997
+2 PLAC South Jeffreybury, Michigan, Samoa
+1 RESI 
+2 DATE 18 DEC 2001
+2 PLAC South Brianna, Kansas, Poland
+1 RESI 
+2 DATE 02 APR 1952
+2 PLAC Bradshawborough, Oklahoma, Morocco
+0 @I54E040C2@ INDI
+1 NAME Kristen/Kelly/
+2 GIVN Kristen
+2 SURN Kelly
+1 SEX F
+1 BIRT
+2 DATE 24 APR 1965
+2 PLAC East Emily, New Jersey, Thailand
+1 GRAD
+2 DATE 29 JAN 1986
+2 PLAC Lake Jamesland, Oklahoma, Sri Lanka
+1 EDUC High School
+2 DATE 21 JAN 2001
+2 PLAC North Josephbury, Indiana, Fiji
+1 NATI Dominica
+2 DATE 01 AUG 1986
+2 PLAC South Mitchell, Vermont, Kiribati
+1 OCCU Therapist, music
+2 DATE 13 FEB 1984
+2 PLAC Hartmouth, North Carolina, Botswana
+1 RESI 
+2 DATE 18 APR 1990
+2 PLAC New Robinstad, Kansas, Iran
+0 @IFBBAAC0E@ INDI
+1 NAME Tina/Davis/
+2 GIVN Tina
+2 SURN Davis
+1 SEX F
+1 BIRT
+2 DATE 05 MAY 1963
+2 PLAC Cohenchester, New Jersey, Bouvet Island (Bouvetoya)
+1 DEAT
+2 DATE 13 MAR 1993
+2 PLAC Johnport, Nevada, Mongolia
+1 BURI
+2 DATE 23 MAR 1993
+2 PLAC Johnport, Nevada, Mongolia
+1 CHR
+2 DATE 30 SEP 1964
+2 PLAC East Jefferyfurt, Kentucky, Montserrat
+1 GRAD
+2 DATE 01 JUN 1982
+2 PLAC Lake Adam, Washington, Saint Helena
+1 NATI Mayotte
+2 DATE 15 JUL 1981
+2 PLAC Andrewfort, Michigan, Puerto Rico
+1 OCCU Surveyor, building
+2 DATE 09 DEC 1986
+2 PLAC Port Connie, Alaska, Saint Lucia
+1 RESI 
+2 DATE 15 NOV 1971
+2 PLAC Richardsonside, Kentucky, Denmark
+1 FAMS @FBEE2DCF0@
+0 @IB45C80F3@ INDI
+1 NAME Veronica/Jenkins/
+2 GIVN Veronica
+2 SURN Jenkins
+1 SEX F
+1 BIRT
+2 DATE 22 MAY 1957
+2 PLAC Port Jamesside, Alabama, Andorra
+1 DEAT
+2 DATE 02 NOV 1991
+2 PLAC New Brandi, Florida, Greenland
+1 BURI
+2 DATE 06 NOV 1991
+2 PLAC New Brandi, Florida, Greenland
+1 CHR
+2 DATE 05 JAN 1959
+2 PLAC East Mary, South Carolina, Gambia
+1 CONF
+2 DATE 13 JAN 1973
+2 PLAC Anthonychester, Montana, Uruguay
+1 NATI Kenya
+2 DATE 08 APR 1984
+2 PLAC Gibbsmouth, Oregon, Monaco
+1 OCCU Database administrator
+2 DATE 16 MAY 1982
+2 PLAC Wayneside, California, Palestinian Territory
+1 RELI Orthodox
+2 DATE 04 JUN 1973
+2 PLAC Matafort, Tennessee, Cayman Islands
+1 RESI 
+2 DATE 18 OCT 1977
+2 PLAC Williamsville, Washington, United Arab Emirates
+1 RESI 
+2 DATE 19 AUG 1988
+2 PLAC West Elizabethchester, Washington, India
+1 RESI 
+2 DATE 26 APR 1982
+2 PLAC Davisfurt, Vermont, Norway
+1 FAMS @FD327AA60@
+0 @IC412E1B0@ INDI
+1 NAME Kathy/Hernandez/
+2 GIVN Kathy
+2 SURN Hernandez
+1 SEX F
+1 BIRT
+2 DATE 09 JAN 1963
+2 PLAC Lake Ryantown, Wisconsin, Kuwait
+1 DEAT
+2 DATE 18 AUG 2007
+2 PLAC Lake Alexis, Hawaii, Tajikistan
+1 BURI
+2 DATE 19 AUG 2007
+2 PLAC Lake Alexis, Hawaii, Tajikistan
+1 GRAD
+2 DATE 24 JUL 1987
+2 PLAC Robinfurt, Hawaii, Georgia
+1 EDUC High School
+2 DATE 16 OCT 2001
+2 PLAC Courtneymouth, Nevada, Armenia
+1 OCCU Engineer, automotive
+2 DATE 24 JUL 1989
+2 PLAC Johnmouth, Alaska, Guatemala
+1 RELI Islamic
+2 DATE 25 JUL 2004
+2 PLAC Jimenezstad, Vermont, Syrian Arab Republic
+1 RESI 
+2 DATE 29 OCT 1981
+2 PLAC Lauraberg, New York, Korea
+1 FAMS @F94462BF2@
+0 @I0C580D4A@ INDI
+1 NAME Kristen/Ball/
+2 GIVN Kristen
+2 SURN Ball
+1 SEX F
+1 BIRT
+2 DATE 26 FEB 1996
+2 PLAC South Karibury, Nebraska, Latvia
+1 BAPM
+2 DATE 11 FEB 1997
+2 PLAC New William, New York, French Polynesia
+1 CHR
+2 DATE 06 MAY 1997
+2 PLAC South Luis, Connecticut, Canada
+1 CONF
+2 DATE 06 OCT 2011
+2 PLAC New Brandon, Virginia, Poland
+1 GRAD
+2 DATE 08 SEP 2017
+2 PLAC Port Paulstad, California, Cook Islands
+1 EDUC High School
+2 DATE 26 AUG 2062
+2 PLAC North Cody, Kentucky, Namibia
+1 NATI Qatar
+2 DATE 07 APR 2031
+2 PLAC Lake Amanda, Louisiana, Zambia
+1 OCCU Museum education officer
+2 DATE 15 JUN 2043
+2 PLAC Michaelfurt, Alaska, Mozambique
+1 OCCU Academic librarian
+2 DATE 21 JAN 2034
+2 PLAC New Samuelmouth, Kansas, Equatorial Guinea
+1 OCCU IT technical support officer
+2 DATE 18 APR 2026
+2 PLAC East Gailton, North Carolina, Brunei Darussalam
+1 RELI Hindu
+2 DATE 16 NOV 2060
+2 PLAC New James, Louisiana, Croatia
+1 RESI 
+2 DATE 28 NOV 2045
+2 PLAC Saraton, Colorado, Vietnam
+0 @I9DCF8A53@ INDI
+1 NAME Colton/Peterson/
+2 GIVN Colton
+2 SURN Peterson
+1 SEX M
+1 BIRT
+2 DATE 05 FEB 1980
+2 PLAC Port Joyce, Virginia, Aruba
+1 BAPM
+2 DATE 02 JUL 1980
+2 PLAC North Barry, Missouri, Jamaica
+1 GRAD
+2 DATE 30 MAR 2001
+2 PLAC Johnsonberg, Utah, Malawi
+1 EDUC Master's Degree
+2 DATE 08 OCT 2019
+2 PLAC South Lori, Minnesota, San Marino
+1 NATI Cyprus
+2 DATE 22 AUG 2000
+2 PLAC Lake Ericland, Minnesota, Bulgaria
+1 OCCU Arts administrator
+2 DATE 27 NOV 2020
+2 PLAC Matthewborough, Maine, Congo
+1 RELI Jewish
+2 DATE 03 JAN 2026
+2 PLAC Richardmouth, Hawaii, El Salvador
+1 RESI 
+2 DATE 26 SEP 2019
+2 PLAC Galvanburgh, Oklahoma, Saint Barthelemy
+1 RESI 
+2 DATE 19 JUN 2018
+2 PLAC South Angel, Georgia, Turks and Caicos Islands
+1 RESI 
+2 DATE 17 FEB 1990
+2 PLAC Derekberg, Oklahoma, Saint Pierre and Miquelon
+0 @I3C3214EC@ INDI
+1 NAME Alexander/Morgan/
+2 GIVN Alexander
+2 SURN Morgan
+1 SEX M
+1 BIRT
+2 DATE 15 JAN 1970
+2 PLAC Sharonview, Maine, Reunion
+1 CONF
+2 DATE 30 SEP 1982
+2 PLAC New Annefurt, Oklahoma, Cook Islands
+1 GRAD
+2 DATE 12 FEB 1992
+2 PLAC Garciaville, South Dakota, Mauritius
+1 NATI Croatia
+2 DATE 31 MAY 2008
+2 PLAC South Linda, Idaho, Belarus
+1 OCCU Biomedical engineer
+2 DATE 04 APR 2036
+2 PLAC Port Danielberg, Wisconsin, Saint Helena
+1 OCCU Advertising account planner
+2 DATE 27 JUN 2022
+2 PLAC South Danafurt, Kentucky, France
+1 RESI 
+2 DATE 03 DEC 1985
+2 PLAC New Adriana, West Virginia, Christmas Island
+1 RESI 
+2 DATE 06 APR 1972
+2 PLAC South Dylanbury, Delaware, Paraguay
+0 @IE887DAFB@ INDI
+1 NAME Tracy/Irwin/
+2 GIVN Tracy
+2 SURN Irwin
+1 SEX F
+1 BIRT
+2 DATE 17 SEP 1974
+2 PLAC Elizabethside, West Virginia, Namibia
+1 GRAD
+2 DATE 26 JUN 1994
+2 PLAC Jasonfurt, Maryland, Albania
+1 IMMI
+2 DATE 08 JUN 1992
+2 PLAC Tashachester, New Hampshire, Italy
+1 EDUC University
+2 DATE 30 DEC 2031
+2 PLAC Ritterfort, New Mexico, Cyprus
+1 NATI Guadeloupe
+2 DATE 12 FEB 2011
+2 PLAC West Gregborough, Iowa, United States Minor Outlying Islands
+1 OCCU Ceramics designer
+2 DATE 10 JAN 2008
+2 PLAC Port Brandiside, Indiana, Christmas Island
+1 RELI Protestant
+2 DATE 11 SEP 2015
+2 PLAC East Dawn, Connecticut, Bulgaria
+1 RESI 
+2 DATE 30 MAY 2020
+2 PLAC Port Reneeview, Delaware, Switzerland
+1 RESI 
+2 DATE 25 OCT 2022
+2 PLAC Summertown, New Mexico, New Caledonia
+1 RESI 
+2 DATE 09 MAR 1977
+2 PLAC West Cynthia, Alaska, American Samoa
+0 @I91C998E6@ INDI
+1 NAME Natasha/Smith/
+2 GIVN Natasha
+2 SURN Smith
+1 SEX F
+1 BIRT
+2 DATE 03 NOV 1971
+2 PLAC Garciamouth, California, Barbados
+1 DEAT
+2 DATE 22 AUG 2013
+2 PLAC Cranemouth, Massachusetts, Latvia
+1 BURI
+2 DATE 01 SEP 2013
+2 PLAC Cranemouth, Massachusetts, Latvia
+1 EDUC High School
+2 DATE 22 MAY 2007
+2 PLAC Lake Maria, Missouri, Timor-Leste
+1 NATI Bosnia and Herzegovina
+2 DATE 24 DEC 2011
+2 PLAC South Melissa, Nevada, Poland
+1 OCCU Architectural technologist
+2 DATE 31 AUG 1996
+2 PLAC Janebury, Missouri, Yemen
+1 OCCU Licensed conveyancer
+2 DATE 19 DEC 1990
+2 PLAC South Mauricefort, Mississippi, British Indian Ocean Territory (Chagos Archipelago)
+1 RESI 
+2 DATE 05 JUN 1977
+2 PLAC Charlesborough, Alaska, Bosnia and Herzegovina
+1 RESI 
+2 DATE 23 APR 1985
+2 PLAC Riosside, New York, Pakistan
+1 RESI 
+2 DATE 02 OCT 2001
+2 PLAC East Kara, Nevada, Anguilla
+0 @I65EC0C62@ INDI
+1 NAME Teresa/Harrell/
+2 GIVN Teresa
+2 SURN Harrell
+1 SEX F
+1 BIRT
+2 DATE 26 DEC 1984
+2 PLAC North George, Iowa, United Arab Emirates
+1 BAPM
+2 DATE 04 JUN 1985
+2 PLAC East Jessicatown, Illinois, Namibia
+1 CHR
+2 DATE 06 DEC 1986
+2 PLAC Fishermouth, Oregon, Iceland
+1 EDUC University
+2 DATE 04 JAN 2001
+2 PLAC Nelsonchester, Arkansas, Colombia
+1 NATI Dominican Republic
+2 DATE 17 JUL 2039
+2 PLAC West Scottport, Wyoming, Australia
+1 OCCU Recycling officer
+2 DATE 19 NOV 2029
+2 PLAC Stanleyville, Wisconsin, Maldives
+1 OCCU Ophthalmologist
+2 DATE 22 AUG 2040
+2 PLAC Hamiltonberg, Arizona, Belize
+1 OCCU Surgeon
+2 DATE 01 NOV 2046
+2 PLAC Port Eric, Oregon, Kazakhstan
+1 RELI Protestant
+2 DATE 13 MAR 2016
+2 PLAC West Michelemouth, Michigan, Isle of Man
+1 RESI 
+2 DATE 08 OCT 2041
+2 PLAC Bakermouth, Nevada, Belgium
+1 RESI 
+2 DATE 13 MAY 1993
+2 PLAC Port John, New Mexico, Saint Martin
+1 RESI 
+2 DATE 16 MAY 2052
+2 PLAC West Josephmouth, New Mexico, Guatemala
+1 FAMC @F04AE56C7@
+0 @IBB147ED7@ INDI
+1 NAME Patricia/White/
+2 GIVN Patricia
+2 SURN White
+1 SEX F
+1 BIRT
+2 DATE 15 MAR 1977
+2 PLAC Hannahside, Minnesota, Puerto Rico
+1 DEAT
+2 DATE 20 JAN 2013
+2 PLAC West Charles, New Jersey, Togo
+1 BURI
+2 DATE 21 JAN 2013
+2 PLAC West Charles, New Jersey, Togo
+1 BAPM
+2 DATE 13 AUG 1978
+2 PLAC Stevensmouth, Washington, Rwanda
+1 GRAD
+2 DATE 23 AUG 2001
+2 PLAC South Jeffrey, Wisconsin, Ecuador
+1 EMIG
+2 DATE 01 JUN 2010
+2 PLAC Stephenchester, Nebraska, Zambia
+1 EDUC High School
+2 DATE 25 APR 1993
+2 PLAC Port Angelstad, Washington, Pitcairn Islands
+1 NATI Austria
+2 DATE 05 FEB 1998
+2 PLAC Boonetown, Texas, Ecuador
+1 OCCU Fish farm manager
+2 DATE 18 OCT 2008
+2 PLAC East Nathanieltown, Illinois, Sudan
+1 RELI Islamic
+2 DATE 26 APR 1994
+2 PLAC West Erikahaven, Tennessee, Cocos (Keeling) Islands
+1 RESI 
+2 DATE 16 JAN 1998
+2 PLAC Lake Monica, Massachusetts, Syrian Arab Republic
+0 @I02E63ABA@ INDI
+1 NAME Ariana/Perry/
+2 GIVN Ariana
+2 SURN Perry
+1 SEX F
+1 BIRT
+2 DATE 11 AUG 1996
+2 PLAC Robertbury, Illinois, Venezuela
+1 NATI China
+2 DATE 08 NOV 2035
+2 PLAC Dyertown, Iowa, Denmark
+1 OCCU Psychotherapist, dance movement
+2 DATE 23 JUN 2037
+2 PLAC Port Melissa, West Virginia, Christmas Island
+1 RESI 
+2 DATE 31 MAR 2021
+2 PLAC Lake Marymouth, Florida, Burkina Faso
+1 RESI 
+2 DATE 16 AUG 2060
+2 PLAC Blackstad, South Carolina, Denmark
+1 RESI 
+2 DATE 26 DEC 2020
+2 PLAC Anthonyburgh, Florida, Trinidad and Tobago
+1 RESI 
+2 DATE 25 JAN 2045
+2 PLAC Port Jennifermouth, Rhode Island, Jordan
+1 FAMC @F94462BF2@
+0 @I25F16328@ INDI
+1 NAME Stephen/Lane/
+2 GIVN Stephen
+2 SURN Lane
+1 SEX M
+1 BIRT
+2 DATE 13 APR 1970
+2 PLAC Kimberlyhaven, Minnesota, Cote d'Ivoire
+1 DEAT
+2 DATE 19 AUG 2022
+2 PLAC Millerborough, New Hampshire, Cote d'Ivoire
+1 BURI
+2 DATE 31 AUG 2022
+2 PLAC Millerborough, New Hampshire, Cote d'Ivoire
+1 BAPM
+2 DATE 11 JUL 1971
+2 PLAC East Darleneside, Mississippi, Bouvet Island (Bouvetoya)
+1 GRAD
+2 DATE 03 AUG 1990
+2 PLAC Lake Joshuamouth, Wyoming, Cyprus
+1 NATI Serbia
+2 DATE 11 AUG 2020
+2 PLAC Waltonview, Louisiana, Libyan Arab Jamahiriya
+1 OCCU Health physicist
+2 DATE 14 JUL 1986
+2 PLAC Lisamouth, West Virginia, South Georgia and the South Sandwich Islands
+1 OCCU Psychotherapist, dance movement
+2 DATE 06 OCT 2003
+2 PLAC Lake Michaelbury, Alaska, Bahrain
+1 RESI 
+2 DATE 11 APR 2019
+2 PLAC Port Jeffery, Mississippi, Saint Lucia
+1 RESI 
+2 DATE 24 JAN 1990
+2 PLAC Shaneton, Arizona, Pitcairn Islands
+1 RESI 
+2 DATE 07 OCT 1994
+2 PLAC New Annettemouth, Indiana, Nauru
+1 RESI 
+2 DATE 19 NOV 1972
+2 PLAC Prattmouth, North Dakota, Switzerland
+0 @I8E693BB7@ INDI
+1 NAME Nancy/Hall/
+2 GIVN Nancy
+2 SURN Hall
+1 SEX F
+1 BIRT
+2 DATE 10 FEB 1984
+2 PLAC New Danielborough, South Carolina, Puerto Rico
+1 EDUC High School
+2 DATE 13 JUL 2002
+2 PLAC Derrickchester, Pennsylvania, Turks and Caicos Islands
+1 NATI British Virgin Islands
+2 DATE 09 APR 2012
+2 PLAC Port Rebecca, New Jersey, Greenland
+1 OCCU Insurance risk surveyor
+2 DATE 09 JUN 2023
+2 PLAC South Peggy, Wyoming, Bulgaria
+1 OCCU Commercial/residential surveyor
+2 DATE 01 FEB 2019
+2 PLAC Samanthamouth, Wisconsin, Rwanda
+1 RELI Orthodox
+2 DATE 18 MAY 2030
+2 PLAC Danielfort, Washington, San Marino
+1 RESI 
+2 DATE 05 DEC 2021
+2 PLAC Sandrachester, Colorado, Uruguay
+1 RESI 
+2 DATE 16 JUN 1991
+2 PLAC South Melissa, Idaho, Mauritius
+1 RESI 
+2 DATE 23 APR 2051
+2 PLAC New Matthewview, New York, American Samoa
+0 @FD327AA60@ FAM
+1 WIFE @IB45C80F3@
+0 @F04AE56C7@ FAM
+1 WIFE @I0E363B49@
+1 CHIL @I65EC0C62@
+0 @F94462BF2@ FAM
+1 WIFE @IC412E1B0@
+1 CHIL @I02E63ABA@
+0 @FBEE2DCF0@ FAM
+1 WIFE @IFBBAAC0E@
+0 TRLR

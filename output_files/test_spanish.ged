@@ -1,0 +1,367 @@
+﻿0 HEAD
+1 SOUR GEDCOM-GENERATOR
+2 VERS 1.0
+2 NAME GEDCOM Test Generator
+1 DEST GEDCOM-BROWSER
+1 DATE 28 MAR 2025
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I5DA020FD@ INDI
+1 NAME Ainoa /Peral/
+2 GIVN Ainoa
+2 SURN Peral
+1 SEX F
+1 BIRT
+2 DATE 18 SEP 1927
+2 PLAC Valencia, Basque Country, Spain
+1 BAPM
+2 DATE 04 DEC 1927
+2 PLAC Zaragoza, Asturias, Spain
+1 CHR
+2 DATE 19 JUL 1929
+2 PLAC Murcia, Basque Country, Spain
+1 EMIG
+2 DATE 11 OCT 1944
+2 PLAC Murcia, Balearic Islands, Spain
+1 EDUC Master's Degree
+2 DATE 01 JUN 1991
+2 PLAC Barcelona, Extremadura, Spain
+1 NATI Spain
+2 DATE 28 MAY 1989
+2 PLAC Valencia, Region of Murcia, Spain
+1 OCCU Analista de gestión y organización
+2 DATE 06 AUG 1966
+2 PLAC Córdoba, Asturias, Spain
+1 OCCU Trabajador agropecuario de subsistencia
+2 DATE 20 JUL 1968
+2 PLAC Seville, Andalusia, Spain
+1 OCCU Profesor de universidades y de la enseñanza superior
+2 DATE 26 JUN 1971
+2 PLAC Palma, Catalonia, Spain
+1 RELI Catholic
+2 DATE 29 MAY 1966
+2 PLAC Madrid, Galicia, Spain
+1 RESI 
+2 DATE 18 NOV 1976
+2 PLAC Valencia, Region of Murcia, Spain
+1 RESI 
+2 DATE 25 SEP 1930
+2 PLAC Madrid, Balearic Islands, Spain
+1 RESI 
+2 DATE 01 JAN 1974
+2 PLAC Málaga, Navarre, Spain
+1 RESI 
+2 DATE 25 JUL 1953
+2 PLAC Seville, Aragon, Spain
+0 @ID0A481F9@ INDI
+1 NAME Febe /Álvaro/
+2 GIVN Febe
+2 SURN Álvaro
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1905
+2 PLAC Madrid, Canary Islands, Spain
+1 CHR
+2 DATE 27 JUL 1907
+2 PLAC Córdoba, Aragon, Spain
+1 GRAD
+2 DATE 14 SEP 1923
+2 PLAC Las Palmas, La Rioja, Spain
+1 NATI Spain
+2 DATE 19 MAY 1933
+2 PLAC Córdoba, Region of Murcia, Spain
+1 OCCU Vendedor puerta a puerta
+2 DATE 23 JUN 1959
+2 PLAC Las Palmas, Castile and León, Spain
+1 RESI 
+2 DATE 17 DEC 1934
+2 PLAC Seville, Catalonia, Spain
+1 RESI 
+2 DATE 17 JUN 1945
+2 PLAC Palma, Community of Madrid, Spain
+1 RESI 
+2 DATE 30 OCT 1920
+2 PLAC Bilbao, Castile and León, Spain
+0 @I45024FDB@ INDI
+1 NAME Saturnina /Rosell/
+2 GIVN Saturnina
+2 SURN Rosell
+1 SEX F
+1 BIRT
+2 DATE 08 JUN 1923
+2 PLAC Málaga, Asturias, Spain
+1 CONF
+2 DATE 04 MAY 1936
+2 PLAC Alicante, Castilla-La Mancha, Spain
+1 GRAD
+2 DATE 02 MAR 1942
+2 PLAC Barcelona, Aragon, Spain
+1 EDUC Doctorate
+2 DATE 11 OCT 1950
+2 PLAC Málaga, La Rioja, Spain
+1 NATI Spain
+2 DATE 04 DEC 1946
+2 PLAC Zaragoza, Valencian Community, Spain
+1 OCCU Operador de instalaciones mineras
+2 DATE 14 FEB 1983
+2 PLAC Barcelona, Valencian Community, Spain
+1 OCCU Afinador de instrumentos musicales
+2 DATE 16 JUN 1959
+2 PLAC Madrid, Navarre, Spain
+1 OCCU Geólogo
+2 DATE 16 DEC 1946
+2 PLAC Palma, Balearic Islands, Spain
+1 RESI 
+2 DATE 20 JAN 1963
+2 PLAC Alicante, Extremadura, Spain
+0 @ID5516DE4@ INDI
+1 NAME Teófila /Lillo/
+2 GIVN Teófila
+2 SURN Lillo
+1 SEX F
+1 BIRT
+2 DATE 04 MAY 1956
+2 PLAC Palma, Galicia, Spain
+1 CONF
+2 DATE 10 AUG 1968
+2 PLAC Málaga, Catalonia, Spain
+1 GRAD
+2 DATE 29 OCT 1977
+2 PLAC Valencia, Asturias, Spain
+1 EDUC Master's Degree
+2 DATE 21 AUG 1981
+2 PLAC Las Palmas, Extremadura, Spain
+1 NATI Spain
+2 DATE 31 AUG 2016
+2 PLAC Alicante, Balearic Islands, Spain
+1 OCCU Supervisor en ingeniería de minas
+2 DATE 10 FEB 1999
+2 PLAC Las Palmas, Andalusia, Spain
+1 OCCU Agente de administración tributaria
+2 DATE 17 JAN 1989
+2 PLAC Alicante, La Rioja, Spain
+1 RESI 
+2 DATE 18 MAY 2018
+2 PLAC Seville, Aragon, Spain
+1 RESI 
+2 DATE 11 AUG 1992
+2 PLAC Palma, Valencian Community, Spain
+1 RESI 
+2 DATE 05 MAR 1979
+2 PLAC Bilbao, Galicia, Spain
+1 RESI 
+2 DATE 22 FEB 1987
+2 PLAC Valencia, Canary Islands, Spain
+0 @I445CEBFB@ INDI
+1 NAME Calisto /Cabrera/
+2 GIVN Calisto
+2 SURN Cabrera
+1 SEX M
+1 BIRT
+2 DATE 21 DEC 2001
+2 PLAC Málaga, Basque Country, Spain
+1 BAPM
+2 DATE 10 NOV 2002
+2 PLAC Seville, Asturias, Spain
+1 GRAD
+2 DATE 13 MAR 2023
+2 PLAC Seville, Castilla-La Mancha, Spain
+1 EDUC High School
+2 DATE 20 JUL 2048
+2 PLAC Bilbao, Castile and León, Spain
+1 OCCU Periodista
+2 DATE 15 JUL 2070
+2 PLAC Málaga, La Rioja, Spain
+1 OCCU Vendedor puerta a puerta
+2 DATE 06 NOV 2047
+2 PLAC Córdoba, Galicia, Spain
+1 OCCU Operador de máquinas de embalaje, embotellamiento y etiquetado 
+2 DATE 01 JAN 2030
+2 PLAC Bilbao, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 23 FEB 2013
+2 PLAC Palma, La Rioja, Spain
+1 RESI 
+2 DATE 24 APR 2032
+2 PLAC Córdoba, Canary Islands, Spain
+1 RESI 
+2 DATE 03 JAN 2051
+2 PLAC Las Palmas, La Rioja, Spain
+1 RESI 
+2 DATE 26 SEP 2059
+2 PLAC Murcia, Castilla-La Mancha, Spain
+0 @IF9F792B2@ INDI
+1 NAME Lourdes /Solano/
+2 GIVN Lourdes
+2 SURN Solano
+1 SEX F
+1 BIRT
+2 DATE 29 AUG 2014
+2 PLAC Seville, La Rioja, Spain
+1 BAPM
+2 DATE 07 FEB 2015
+2 PLAC Barcelona, Catalonia, Spain
+1 CHR
+2 DATE 13 SEP 2015
+2 PLAC Murcia, Andalusia, Spain
+1 IMMI
+2 DATE 13 JUN 2050
+2 PLAC Seville, Galicia, Spain
+1 EDUC Bachelor's Degree
+2 DATE 09 AUG 2068
+2 PLAC Valencia, Catalonia, Spain
+1 NATI Spain
+2 DATE 11 MAR 2035
+2 PLAC Zaragoza, Galicia, Spain
+1 OCCU Director de producción de piscicultura y pesca
+2 DATE 02 MAR 2046
+2 PLAC Seville, Canary Islands, Spain
+1 RESI 
+2 DATE 20 AUG 2072
+2 PLAC Palma, Andalusia, Spain
+1 RESI 
+2 DATE 03 FEB 2017
+2 PLAC Madrid, Catalonia, Spain
+0 @I2CE22BA8@ INDI
+1 NAME Felisa /Gallego/
+2 GIVN Felisa
+2 SURN Gallego
+1 SEX F
+1 BIRT
+2 DATE 03 JUN 1989
+2 PLAC Palma, Castilla-La Mancha, Spain
+1 DEAT
+2 DATE 08 AUG 2065
+2 PLAC Zaragoza, Navarre, Spain
+1 BURI
+2 DATE 22 AUG 2065
+2 PLAC Zaragoza, Navarre, Spain
+1 NATI Spain
+2 DATE 28 JAN 2046
+2 PLAC Barcelona, Extremadura, Spain
+1 OCCU Trabajador agropecuario de subsistencia
+2 DATE 06 AUG 2036
+2 PLAC Córdoba, Region of Murcia, Spain
+1 OCCU Reponedor de estanterías
+2 DATE 14 SEP 2046
+2 PLAC Murcia, Asturias, Spain
+1 RESI 
+2 DATE 08 SEP 2033
+2 PLAC Murcia, Region of Murcia, Spain
+1 RESI 
+2 DATE 09 JAN 2027
+2 PLAC Málaga, La Rioja, Spain
+1 RESI 
+2 DATE 08 MAY 2050
+2 PLAC Málaga, Canary Islands, Spain
+0 @IA8353714@ INDI
+1 NAME Caridad /Tello/
+2 GIVN Caridad
+2 SURN Tello
+1 SEX F
+1 BIRT
+2 DATE 28 JUL 1987
+2 PLAC Bilbao, Extremadura, Spain
+1 DEAT
+2 DATE 24 NOV 2068
+2 PLAC Palma, Valencian Community, Spain
+1 BURI
+2 DATE 02 DEC 2068
+2 PLAC Palma, Valencian Community, Spain
+1 CHR
+2 DATE 09 FEB 1988
+2 PLAC Murcia, Aragon, Spain
+1 OCCU Estadístico
+2 DATE 02 AUG 2054
+2 PLAC Palma, Canary Islands, Spain
+1 OCCU Vendedor puerta a puerta
+2 DATE 09 JUN 2029
+2 PLAC Alicante, Catalonia, Spain
+1 OCCU Pintor y empapelador
+2 DATE 10 JUL 2017
+2 PLAC Madrid, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 13 APR 2044
+2 PLAC Madrid, Aragon, Spain
+0 @I19CD965D@ INDI
+1 NAME Juan Luis /Ariza/
+2 GIVN Juan Luis
+2 SURN Ariza
+1 SEX M
+1 BIRT
+2 DATE 25 AUG 1973
+2 PLAC Madrid, Valencian Community, Spain
+1 BAPM
+2 DATE 23 OCT 1973
+2 PLAC Seville, Navarre, Spain
+1 CHR
+2 DATE 30 AUG 1974
+2 PLAC Palma, Valencian Community, Spain
+1 GRAD
+2 DATE 02 FEB 1992
+2 PLAC Barcelona, Extremadura, Spain
+1 EDUC Bachelor's Degree
+2 DATE 23 APR 2012
+2 PLAC Barcelona, La Rioja, Spain
+1 NATI Spain
+2 DATE 08 MAR 2033
+2 PLAC Madrid, Region of Murcia, Spain
+1 OCCU Desarrollador de software
+2 DATE 12 OCT 2040
+2 PLAC Málaga, Catalonia, Spain
+1 RELI Jewish
+2 DATE 29 OCT 2005
+2 PLAC Barcelona, Galicia, Spain
+1 RESI 
+2 DATE 19 JAN 1988
+2 PLAC Murcia, Community of Madrid, Spain
+1 RESI 
+2 DATE 23 JAN 1983
+2 PLAC Alicante, Cantabria, Spain
+1 RESI 
+2 DATE 19 DEC 2040
+2 PLAC Murcia, Region of Murcia, Spain
+1 RESI 
+2 DATE 19 JAN 2007
+2 PLAC Barcelona, Valencian Community, Spain
+0 @I7AE7DFDD@ INDI
+1 NAME Lourdes /Casanovas/
+2 GIVN Lourdes
+2 SURN Casanovas
+1 SEX F
+1 BIRT
+2 DATE 23 AUG 2011
+2 PLAC Málaga, Navarre, Spain
+1 DEAT
+2 DATE 21 FEB 2035
+2 PLAC Las Palmas, Castile and León, Spain
+1 BURI
+2 DATE 22 FEB 2035
+2 PLAC Las Palmas, Castile and León, Spain
+1 GRAD
+2 DATE 24 DEC 2034
+2 PLAC Málaga, Extremadura, Spain
+1 EDUC Doctorate
+2 DATE 18 FEB 2032
+2 PLAC Córdoba, Region of Murcia, Spain
+1 OCCU Gerente de centros deportivos, de esparcimiento y culturales
+2 DATE 28 JAN 2029
+2 PLAC Madrid, Andalusia, Spain
+1 RELI Jewish
+2 DATE 20 MAY 2031
+2 PLAC Zaragoza, Navarre, Spain
+1 RESI 
+2 DATE 24 MAY 2026
+2 PLAC Córdoba, Community of Madrid, Spain
+1 RESI 
+2 DATE 05 APR 2032
+2 PLAC Murcia, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 02 OCT 2025
+2 PLAC Alicante, Extremadura, Spain
+1 RESI 
+2 DATE 14 JAN 2031
+2 PLAC Málaga, Castile and León, Spain
+0 TRLR

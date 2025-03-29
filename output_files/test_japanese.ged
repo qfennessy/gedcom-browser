@@ -1,0 +1,361 @@
+﻿0 HEAD
+1 SOUR GEDCOM-GENERATOR
+2 VERS 1.0
+2 NAME GEDCOM Test Generator
+1 DEST GEDCOM-BROWSER
+1 DATE 28 MAR 2025
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I24A11286@ INDI
+1 NAME 篤司 /高橋/
+2 GIVN 篤司
+2 SURN 高橋
+1 SEX M
+1 BIRT
+2 DATE 01 MAR 1938
+2 PLAC Hiroshima, Fukushima, Japan
+1 CONF
+2 DATE 26 JUL 1951
+2 PLAC Sapporo, Kanagawa, Japan
+1 EDUC High School
+2 DATE 07 APR 1956
+2 PLAC Osaka, Ishikawa, Japan
+1 NATI Japan
+2 DATE 29 OCT 1989
+2 PLAC Kobe, Fukuoka, Japan
+1 OCCU 裁判官
+2 DATE 02 DEC 1986
+2 PLAC Osaka, Miyagi, Japan
+1 OCCU 運転士
+2 DATE 19 NOV 2001
+2 PLAC Nagoya, Fukuoka, Japan
+1 RELI Protestant
+2 DATE 05 DEC 1980
+2 PLAC Nagoya, Kagoshima, Japan
+1 RESI 
+2 DATE 12 AUG 1992
+2 PLAC Yokohama, Nagano, Japan
+0 @I9E4F177F@ INDI
+1 NAME 直子 /加藤/
+2 GIVN 直子
+2 SURN 加藤
+1 SEX F
+1 BIRT
+2 DATE 08 JUL 1924
+2 PLAC Nagoya, Aomori, Japan
+1 CHR
+2 DATE 03 APR 1925
+2 PLAC Hiroshima, Gifu, Japan
+1 GRAD
+2 DATE 19 OCT 1942
+2 PLAC Sapporo, Fukui, Japan
+1 NATI Japan
+2 DATE 27 JUN 1955
+2 PLAC Sendai, Ibaraki, Japan
+1 OCCU ゲームクリエイター
+2 DATE 07 JUN 1948
+2 PLAC Sapporo, Iwate, Japan
+1 OCCU 調理師
+2 DATE 01 OCT 1978
+2 PLAC Osaka, Osaka, Japan
+1 RESI 
+2 DATE 11 APR 1971
+2 PLAC Tokyo, Aomori, Japan
+1 RESI 
+2 DATE 15 MAY 1934
+2 PLAC Kawasaki, Niigata, Japan
+1 RESI 
+2 DATE 26 JUL 1989
+2 PLAC Hiroshima, Okinawa, Japan
+1 RESI 
+2 DATE 19 DEC 1957
+2 PLAC Hiroshima, Hiroshima, Japan
+0 @I4EE2B94B@ INDI
+1 NAME 明美 /田中/
+2 GIVN 明美
+2 SURN 田中
+1 SEX F
+1 BIRT
+2 DATE 26 JUL 1921
+2 PLAC Hiroshima, Akita, Japan
+1 BAPM
+2 DATE 02 DEC 1921
+2 PLAC Nagoya, Ishikawa, Japan
+1 EMIG
+2 DATE 18 JUN 1954
+2 PLAC Fukuoka, Kochi, Japan
+1 EDUC Bachelor's Degree
+2 DATE 25 MAY 1981
+2 PLAC Fukuoka, Osaka, Japan
+1 NATI Japan
+2 DATE 29 OCT 1968
+2 PLAC Fukuoka, Kumamoto, Japan
+1 OCCU お笑い芸人
+2 DATE 06 MAR 1990
+2 PLAC Hiroshima, Shizuoka, Japan
+1 RELI Orthodox
+2 DATE 17 MAR 1941
+2 PLAC Saitama, Hiroshima, Japan
+1 RESI 
+2 DATE 12 SEP 1957
+2 PLAC Kawasaki, Yamagata, Japan
+1 RESI 
+2 DATE 13 APR 1933
+2 PLAC Kobe, Chiba, Japan
+0 @I9B152FCF@ INDI
+1 NAME 七夏 /吉田/
+2 GIVN 七夏
+2 SURN 吉田
+1 SEX F
+1 BIRT
+2 DATE 04 MAY 1936
+2 PLAC Hiroshima, Nara, Japan
+1 BAPM
+2 DATE 12 JUL 1937
+2 PLAC Osaka, Kagoshima, Japan
+1 GRAD
+2 DATE 03 MAR 1955
+2 PLAC Sendai, Wakayama, Japan
+1 IMMI
+2 DATE 01 AUG 1962
+2 PLAC Kawasaki, Ishikawa, Japan
+1 EDUC Bachelor's Degree
+2 DATE 18 JUN 1999
+2 PLAC Sendai, Tochigi, Japan
+1 NATI Japan
+2 DATE 16 APR 1985
+2 PLAC Kawasaki, Shiga, Japan
+1 OCCU 高等学校教員
+2 DATE 23 JUN 1974
+2 PLAC Sapporo, Tokushima, Japan
+1 RELI None
+2 DATE 02 AUG 1984
+2 PLAC Kyoto, Hiroshima, Japan
+1 RESI 
+2 DATE 24 JAN 2000
+2 PLAC Hiroshima, Toyama, Japan
+0 @I94E5855A@ INDI
+1 NAME 真綾 /西村/
+2 GIVN 真綾
+2 SURN 西村
+1 SEX F
+1 BIRT
+2 DATE 18 NOV 2014
+2 PLAC Saitama, Hiroshima, Japan
+1 DEAT
+2 DATE 04 MAY 2080
+2 PLAC Saitama, Miyagi, Japan
+1 BURI
+2 DATE 12 MAY 2080
+2 PLAC Saitama, Miyagi, Japan
+1 EMIG
+2 DATE 16 MAR 2046
+2 PLAC Nagoya, Okayama, Japan
+1 IMMI
+2 DATE 04 OCT 2043
+2 PLAC Sendai, Kanagawa, Japan
+1 NATI Japan
+2 DATE 14 JAN 2045
+2 PLAC Hiroshima, Gunma, Japan
+1 OCCU お笑い芸人
+2 DATE 04 APR 2060
+2 PLAC Nagoya, Tokyo, Japan
+1 RELI Protestant
+2 DATE 30 AUG 2073
+2 PLAC Fukuoka, Hiroshima, Japan
+1 RESI 
+2 DATE 10 SEP 2050
+2 PLAC Sendai, Ishikawa, Japan
+1 RESI 
+2 DATE 27 OCT 2078
+2 PLAC Kyoto, Ehime, Japan
+1 RESI 
+2 DATE 04 DEC 2070
+2 PLAC Kawasaki, Yamaguchi, Japan
+0 @IDED6E4D9@ INDI
+1 NAME 洋介 /鈴木/
+2 GIVN 洋介
+2 SURN 鈴木
+1 SEX M
+1 BIRT
+2 DATE 10 JAN 1967
+2 PLAC Yokohama, Mie, Japan
+1 DEAT
+2 DATE 23 MAR 1997
+2 PLAC Kawasaki, Saitama, Japan
+1 BAPM
+2 DATE 12 FEB 1968
+2 PLAC Yokohama, Nagasaki, Japan
+1 IMMI
+2 DATE 05 MAR 1990
+2 PLAC Nagoya, Fukushima, Japan
+1 EDUC University
+2 DATE 29 NOV 1991
+2 PLAC Tokyo, Hiroshima, Japan
+1 NATI Japan
+2 DATE 24 FEB 1992
+2 PLAC Fukuoka, Aomori, Japan
+1 OCCU 測量士
+2 DATE 25 MAY 1984
+2 PLAC Sapporo, Fukui, Japan
+1 OCCU エステティシャン
+2 DATE 31 MAR 1994
+2 PLAC Fukuoka, Wakayama, Japan
+1 RESI 
+2 DATE 24 APR 1981
+2 PLAC Hiroshima, Tokyo, Japan
+1 RESI 
+2 DATE 07 OCT 1971
+2 PLAC Kawasaki, Chiba, Japan
+1 RESI 
+2 DATE 29 MAR 1996
+2 PLAC Tokyo, Tokushima, Japan
+1 RESI 
+2 DATE 06 APR 1985
+2 PLAC Yokohama, Osaka, Japan
+0 @I0F3F3E93@ INDI
+1 NAME 稔 /吉田/
+2 GIVN 稔
+2 SURN 吉田
+1 SEX M
+1 BIRT
+2 DATE 18 FEB 2012
+2 PLAC Saitama, Kagoshima, Japan
+1 DEAT
+2 DATE 16 MAY 2047
+2 PLAC Hiroshima, Nara, Japan
+1 BAPM
+2 DATE 22 OCT 2012
+2 PLAC Sendai, Iwate, Japan
+1 CHR
+2 DATE 22 OCT 2013
+2 PLAC Fukuoka, Shiga, Japan
+1 GRAD
+2 DATE 19 NOV 2032
+2 PLAC Kawasaki, Tokushima, Japan
+1 EDUC Bachelor's Degree
+2 DATE 04 DEC 2046
+2 PLAC Kawasaki, Gifu, Japan
+1 NATI Japan
+2 DATE 08 JUN 2038
+2 PLAC Yokohama, Yamagata, Japan
+1 OCCU 裁判官
+2 DATE 02 MAR 2038
+2 PLAC Saitama, Wakayama, Japan
+1 OCCU 救急救命士
+2 DATE 13 SEP 2035
+2 PLAC Kobe, Tokushima, Japan
+1 OCCU アーティスト
+2 DATE 13 OCT 2032
+2 PLAC Kyoto, Fukui, Japan
+1 RESI 
+2 DATE 10 NOV 2044
+2 PLAC Yokohama, Yamagata, Japan
+1 RESI 
+2 DATE 26 FEB 2043
+2 PLAC Sapporo, Shizuoka, Japan
+0 @IEC4CC757@ INDI
+1 NAME 加奈 /佐々木/
+2 GIVN 加奈
+2 SURN 佐々木
+1 SEX F
+1 BIRT
+2 DATE 06 MAY 2008
+2 PLAC Osaka, Fukuoka, Japan
+1 BAPM
+2 DATE 04 AUG 2008
+2 PLAC Sendai, Niigata, Japan
+1 EDUC University
+2 DATE 04 MAY 2066
+2 PLAC Hiroshima, Shimane, Japan
+1 NATI Japan
+2 DATE 20 APR 2046
+2 PLAC Fukuoka, Hyogo, Japan
+1 OCCU アニメーター
+2 DATE 30 MAY 2041
+2 PLAC Kyoto, Kagawa, Japan
+1 RELI Orthodox
+2 DATE 21 MAY 2052
+2 PLAC Yokohama, Miyagi, Japan
+1 RESI 
+2 DATE 10 OCT 2056
+2 PLAC Hiroshima, Shizuoka, Japan
+1 RESI 
+2 DATE 07 JUL 2046
+2 PLAC Kawasaki, Okinawa, Japan
+1 RESI 
+2 DATE 24 AUG 2053
+2 PLAC Sendai, Akita, Japan
+0 @I1C99846B@ INDI
+1 NAME 康弘 /木村/
+2 GIVN 康弘
+2 SURN 木村
+1 SEX M
+1 BIRT
+2 DATE 26 AUG 2016
+2 PLAC Sendai, Saitama, Japan
+1 BAPM
+2 DATE 19 NOV 2016
+2 PLAC Saitama, Nagano, Japan
+1 EMIG
+2 DATE 07 FEB 2047
+2 PLAC Kobe, Oita, Japan
+1 NATI Japan
+2 DATE 21 MAY 2062
+2 PLAC Hiroshima, Saitama, Japan
+1 OCCU 占い師
+2 DATE 04 JUL 2074
+2 PLAC Kawasaki, Yamaguchi, Japan
+1 OCCU 高等学校教員
+2 DATE 12 DEC 2071
+2 PLAC Nagoya, Oita, Japan
+1 RELI Islamic
+2 DATE 18 NOV 2056
+2 PLAC Saitama, Nara, Japan
+1 RESI 
+2 DATE 07 DEC 2070
+2 PLAC Sapporo, Saga, Japan
+1 RESI 
+2 DATE 10 NOV 2067
+2 PLAC Tokyo, Miyagi, Japan
+0 @I17B45CF1@ INDI
+1 NAME 康弘 /山崎/
+2 GIVN 康弘
+2 SURN 山崎
+1 SEX M
+1 BIRT
+2 DATE 11 FEB 1992
+2 PLAC Saitama, Wakayama, Japan
+1 DEAT
+2 DATE 12 APR 2084
+2 PLAC Tokyo, Yamaguchi, Japan
+1 BURI
+2 DATE 17 APR 2084
+2 PLAC Tokyo, Yamaguchi, Japan
+1 BAPM
+2 DATE 08 OCT 1993
+2 PLAC Fukuoka, Saitama, Japan
+1 CHR
+2 DATE 05 DEC 1992
+2 PLAC Kyoto, Yamaguchi, Japan
+1 CONF
+2 DATE 05 APR 2006
+2 PLAC Tokyo, Yamagata, Japan
+1 EDUC Bachelor's Degree
+2 DATE 20 MAR 2050
+2 PLAC Hiroshima, Ibaraki, Japan
+1 OCCU 歯科医師
+2 DATE 27 AUG 2030
+2 PLAC Fukuoka, Aichi, Japan
+1 RESI 
+2 DATE 14 NOV 2059
+2 PLAC Sendai, Ibaraki, Japan
+1 RESI 
+2 DATE 04 MAY 2035
+2 PLAC Hiroshima, Nara, Japan
+1 RESI 
+2 DATE 02 DEC 2021
+2 PLAC Saitama, Hiroshima, Japan
+0 TRLR

@@ -1,0 +1,694 @@
+﻿0 HEAD
+1 SOUR GEDCOM-GENERATOR
+2 VERS 1.0
+2 NAME GEDCOM Test Generator
+1 DEST GEDCOM-BROWSER
+1 DATE 28 MAR 2025
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I9588331A@ INDI
+1 NAME Gil /Salas/
+2 GIVN Gil
+2 SURN Salas
+1 SEX M
+1 BIRT
+2 DATE 02 FEB 1924
+2 PLAC Barcelona, La Rioja, Spain
+1 BAPM
+2 DATE 19 MAY 1925
+2 PLAC Málaga, Cantabria, Spain
+1 CHR
+2 DATE 18 OCT 1925
+2 PLAC Seville, Extremadura, Spain
+1 EMIG
+2 DATE 02 JAN 1948
+2 PLAC Málaga, Community of Madrid, Spain
+1 OCCU Zoólogo
+2 DATE 03 MAY 1956
+2 PLAC Palma, Navarre, Spain
+1 OCCU Supervisor en ingeniería de minas
+2 DATE 30 MAY 1982
+2 PLAC Bilbao, Asturias, Spain
+1 OCCU Sombrerero
+2 DATE 26 FEB 1969
+2 PLAC Valencia, Region of Murcia, Spain
+1 RELI None
+2 DATE 17 NOV 1990
+2 PLAC Málaga, Castile and León, Spain
+1 RESI 
+2 DATE 08 JUL 1940
+2 PLAC Zaragoza, Andalusia, Spain
+0 @I85F3E98C@ INDI
+1 NAME Glauco /Figueroa/
+2 GIVN Glauco
+2 SURN Figueroa
+1 SEX M
+1 BIRT
+2 DATE 09 MAY 1931
+2 PLAC Alicante, Galicia, Spain
+1 BAPM
+2 DATE 20 APR 1933
+2 PLAC Seville, Andalusia, Spain
+1 GRAD
+2 DATE 07 OCT 1950
+2 PLAC Palma, Region of Murcia, Spain
+1 EMIG
+2 DATE 16 JUL 1966
+2 PLAC Las Palmas, Castilla-La Mancha, Spain
+1 EDUC High School
+2 DATE 27 MAR 1974
+2 PLAC Alicante, Canary Islands, Spain
+1 NATI Spain
+2 DATE 15 JUN 2000
+2 PLAC Seville, Cantabria, Spain
+1 OCCU Director de empresas de construcción
+2 DATE 08 OCT 1978
+2 PLAC Bilbao, La Rioja, Spain
+1 OCCU Lavandero
+2 DATE 24 APR 1997
+2 PLAC Valencia, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 15 OCT 1959
+2 PLAC Seville, Galicia, Spain
+1 RESI 
+2 DATE 27 AUG 1988
+2 PLAC Córdoba, Region of Murcia, Spain
+1 RESI 
+2 DATE 29 AUG 1960
+2 PLAC Bilbao, Catalonia, Spain
+0 @IC83CE11A@ INDI
+1 NAME Jacobo /Pi/
+2 GIVN Jacobo
+2 SURN Pi
+1 SEX M
+1 BIRT
+2 DATE 19 JUN 1904
+2 PLAC Córdoba, Canary Islands, Spain
+1 GRAD
+2 DATE 16 DEC 1927
+2 PLAC Málaga, Community of Madrid, Spain
+1 EDUC Bachelor's Degree
+2 DATE 23 OCT 1928
+2 PLAC Bilbao, Castilla-La Mancha, Spain
+1 NATI Spain
+2 DATE 26 SEP 1920
+2 PLAC Zaragoza, Canary Islands, Spain
+1 OCCU Ingeniero químico
+2 DATE 13 JAN 1965
+2 PLAC Zaragoza, Region of Murcia, Spain
+1 RESI 
+2 DATE 27 NOV 1924
+2 PLAC Córdoba, Community of Madrid, Spain
+1 RESI 
+2 DATE 14 JUN 1925
+2 PLAC Murcia, Valencian Community, Spain
+1 RESI 
+2 DATE 23 AUG 1948
+2 PLAC Alicante, Catalonia, Spain
+1 RESI 
+2 DATE 06 AUG 1942
+2 PLAC Madrid, Castilla-La Mancha, Spain
+0 @IE84F2FED@ INDI
+1 NAME Aitor /Nuñez/
+2 GIVN Aitor
+2 SURN Nuñez
+1 SEX M
+1 BIRT
+2 DATE 17 JUL 1902
+2 PLAC Palma, Catalonia, Spain
+1 GRAD
+2 DATE 15 DEC 1925
+2 PLAC Valencia, La Rioja, Spain
+1 EDUC Master's Degree
+2 DATE 29 NOV 1970
+2 PLAC Valencia, Balearic Islands, Spain
+1 NATI Spain
+2 DATE 13 MAR 1931
+2 PLAC Alicante, Navarre, Spain
+1 OCCU Capitán decubierta
+2 DATE 22 FEB 1924
+2 PLAC Barcelona, Galicia, Spain
+1 OCCU Empleado de agencia de viajes
+2 DATE 08 JUL 1969
+2 PLAC Las Palmas, Cantabria, Spain
+1 OCCU Profesional de nivel medio de servicios estadísticos o matemáticos
+2 DATE 22 JUN 1966
+2 PLAC Valencia, Extremadura, Spain
+1 RELI Islamic
+2 DATE 13 DEC 1918
+2 PLAC Alicante, Region of Murcia, Spain
+1 RESI 
+2 DATE 08 AUG 1934
+2 PLAC Málaga, Valencian Community, Spain
+1 RESI 
+2 DATE 03 NOV 1936
+2 PLAC Bilbao, Community of Madrid, Spain
+0 @I15A37606@ INDI
+1 NAME Ainara /Ribera/
+2 GIVN Ainara
+2 SURN Ribera
+1 SEX F
+1 BIRT
+2 DATE 16 NOV 1941
+2 PLAC Valencia, Castile and León, Spain
+1 DEAT
+2 DATE 14 DEC 2028
+2 PLAC Murcia, La Rioja, Spain
+1 BURI
+2 DATE 22 DEC 2028
+2 PLAC Murcia, La Rioja, Spain
+1 CHR
+2 DATE 17 AUG 1943
+2 PLAC Madrid, La Rioja, Spain
+1 GRAD
+2 DATE 09 MAR 1962
+2 PLAC Valencia, La Rioja, Spain
+1 NATI Spain
+2 DATE 04 OCT 1975
+2 PLAC Barcelona, Galicia, Spain
+1 OCCU Paisajista
+2 DATE 06 MAR 2002
+2 PLAC Murcia, Galicia, Spain
+1 OCCU Peletero
+2 DATE 23 MAR 1987
+2 PLAC Málaga, Galicia, Spain
+1 RESI 
+2 DATE 22 FEB 1968
+2 PLAC Madrid, Canary Islands, Spain
+1 RESI 
+2 DATE 15 MAR 1953
+2 PLAC Barcelona, Extremadura, Spain
+1 RESI 
+2 DATE 05 AUG 1960
+2 PLAC Zaragoza, Cantabria, Spain
+1 RESI 
+2 DATE 06 JUN 1972
+2 PLAC Bilbao, Extremadura, Spain
+0 @I53B94347@ INDI
+1 NAME Carlota /Barroso/
+2 GIVN Carlota
+2 SURN Barroso
+1 SEX F
+1 BIRT
+2 DATE 30 DEC 1946
+2 PLAC Málaga, Canary Islands, Spain
+1 GRAD
+2 DATE 28 MAY 1966
+2 PLAC Alicante, Community of Madrid, Spain
+1 EDUC Bachelor's Degree
+2 DATE 22 MAY 1996
+2 PLAC Madrid, Valencian Community, Spain
+1 NATI Spain
+2 DATE 19 MAY 1982
+2 PLAC Palma, Community of Madrid, Spain
+1 OCCU Recolector de dinero en aparatos de venta automática y lector de medidores
+2 DATE 11 APR 1978
+2 PLAC Palma, Castilla-La Mancha, Spain
+1 RELI None
+2 DATE 03 JAN 2016
+2 PLAC Madrid, Navarre, Spain
+1 RESI 
+2 DATE 24 JUN 1976
+2 PLAC Madrid, Extremadura, Spain
+0 @I38B44DF8@ INDI
+1 NAME María Cristina /Gallo/
+2 GIVN María Cristina
+2 SURN Gallo
+1 SEX F
+1 BIRT
+2 DATE 01 AUG 1970
+2 PLAC Zaragoza, Andalusia, Spain
+1 GRAD
+2 DATE 18 APR 1995
+2 PLAC Alicante, Castilla-La Mancha, Spain
+1 IMMI
+2 DATE 02 MAR 2001
+2 PLAC Las Palmas, Asturias, Spain
+1 EDUC College
+2 DATE 18 SEP 1989
+2 PLAC Barcelona, Galicia, Spain
+1 NATI Spain
+2 DATE 22 MAR 2018
+2 PLAC Málaga, La Rioja, Spain
+1 OCCU Profesional del trabajo social
+2 DATE 27 MAR 1996
+2 PLAC Barcelona, Balearic Islands, Spain
+1 OCCU Receptor de apuestas
+2 DATE 10 OCT 1998
+2 PLAC Zaragoza, Valencian Community, Spain
+1 RELI None
+2 DATE 13 JUL 2018
+2 PLAC Barcelona, Castile and León, Spain
+1 RESI 
+2 DATE 03 SEP 2035
+2 PLAC Zaragoza, Balearic Islands, Spain
+1 RESI 
+2 DATE 22 FEB 2012
+2 PLAC Valencia, Catalonia, Spain
+0 @I6E0BCF68@ INDI
+1 NAME Edelmira /Sedano/
+2 GIVN Edelmira
+2 SURN Sedano
+1 SEX F
+1 BIRT
+2 DATE 10 APR 1944
+2 PLAC Las Palmas, Cantabria, Spain
+1 DEAT
+2 DATE 22 OCT 1999
+2 PLAC Murcia, Extremadura, Spain
+1 BAPM
+2 DATE 22 OCT 1945
+2 PLAC Málaga, Cantabria, Spain
+1 GRAD
+2 DATE 01 NOV 1965
+2 PLAC Córdoba, Aragon, Spain
+1 EDUC University
+2 DATE 07 SEP 1980
+2 PLAC Bilbao, Extremadura, Spain
+1 OCCU Focumentalista
+2 DATE 16 JAN 1992
+2 PLAC Alicante, La Rioja, Spain
+1 OCCU Peón de explotaciones ganaderas
+2 DATE 04 OCT 1964
+2 PLAC Bilbao, Valencian Community, Spain
+1 RELI Catholic
+2 DATE 16 MAR 1999
+2 PLAC Palma, Valencian Community, Spain
+1 RESI 
+2 DATE 05 DEC 1960
+2 PLAC Seville, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 04 MAY 1981
+2 PLAC Alicante, Canary Islands, Spain
+1 RESI 
+2 DATE 30 JUL 1947
+2 PLAC Zaragoza, Basque Country, Spain
+1 FAMS @FA5BAA98E@
+0 @I092F6FB7@ INDI
+1 NAME África /Quintanilla/
+2 GIVN África
+2 SURN Quintanilla
+1 SEX F
+1 BIRT
+2 DATE 29 DEC 1958
+2 PLAC Las Palmas, Balearic Islands, Spain
+1 BAPM
+2 DATE 29 OCT 1959
+2 PLAC Bilbao, Castile and León, Spain
+1 GRAD
+2 DATE 02 OCT 1980
+2 PLAC Bilbao, Valencian Community, Spain
+1 EDUC Bachelor's Degree
+2 DATE 18 MAY 1984
+2 PLAC Córdoba, Andalusia, Spain
+1 OCCU Tronzador
+2 DATE 24 DEC 1982
+2 PLAC Málaga, Valencian Community, Spain
+1 OCCU Criador de ganado
+2 DATE 03 MAR 2012
+2 PLAC Las Palmas, Galicia, Spain
+1 RESI 
+2 DATE 02 OCT 1995
+2 PLAC Barcelona, La Rioja, Spain
+1 RESI 
+2 DATE 09 OCT 1992
+2 PLAC Bilbao, Valencian Community, Spain
+1 FAMS @FC2B42914@
+0 @I7FFA8E71@ INDI
+1 NAME Óscar /Castells/
+2 GIVN Óscar
+2 SURN Castells
+1 SEX M
+1 BIRT
+2 DATE 28 MAR 1946
+2 PLAC Málaga, Catalonia, Spain
+1 BAPM
+2 DATE 16 JAN 1948
+2 PLAC Murcia, Valencian Community, Spain
+1 CONF
+2 DATE 16 MAR 1960
+2 PLAC Las Palmas, Cantabria, Spain
+1 EDUC College
+2 DATE 19 MAR 1972
+2 PLAC Murcia, Basque Country, Spain
+1 NATI Spain
+2 DATE 11 MAY 1965
+2 PLAC Seville, Cantabria, Spain
+1 OCCU Mecánico y ajustador electricista
+2 DATE 11 JUN 1999
+2 PLAC Valencia, Castilla-La Mancha, Spain
+1 RELI Hindu
+2 DATE 19 FEB 2003
+2 PLAC Málaga, Asturias, Spain
+1 RESI 
+2 DATE 24 MAR 1992
+2 PLAC Barcelona, Extremadura, Spain
+1 RESI 
+2 DATE 20 APR 1952
+2 PLAC Murcia, Region of Murcia, Spain
+0 @I32568C29@ INDI
+1 NAME Baldomero /Arribas/
+2 GIVN Baldomero
+2 SURN Arribas
+1 SEX M
+1 BIRT
+2 DATE 16 JAN 2015
+2 PLAC Bilbao, Navarre, Spain
+1 BAPM
+2 DATE 01 MAY 2016
+2 PLAC Murcia, Extremadura, Spain
+1 CONF
+2 DATE 14 AUG 2027
+2 PLAC Córdoba, Basque Country, Spain
+1 NATI Spain
+2 DATE 25 AUG 2060
+2 PLAC Seville, La Rioja, Spain
+1 RELI Islamic
+2 DATE 31 OCT 2081
+2 PLAC Murcia, Valencian Community, Spain
+1 RESI 
+2 DATE 16 AUG 2064
+2 PLAC Seville, Region of Murcia, Spain
+1 RESI 
+2 DATE 15 FEB 2021
+2 PLAC Madrid, Galicia, Spain
+0 @I7D58F26A@ INDI
+1 NAME Íñigo /Guitart/
+2 GIVN Íñigo
+2 SURN Guitart
+1 SEX M
+1 BIRT
+2 DATE 23 JUN 2011
+2 PLAC Alicante, La Rioja, Spain
+1 NATI Spain
+2 DATE 05 MAY 2075
+2 PLAC Madrid, Region of Murcia, Spain
+1 OCCU Peón de explotaciones ganaderas
+2 DATE 25 MAY 2077
+2 PLAC Valencia, Region of Murcia, Spain
+1 OCCU Tipógrafo
+2 DATE 21 NOV 2030
+2 PLAC Alicante, Navarre, Spain
+1 OCCU Audiólogo
+2 DATE 27 FEB 2053
+2 PLAC Las Palmas, Navarre, Spain
+1 RELI Catholic
+2 DATE 13 NOV 2076
+2 PLAC Valencia, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 27 SEP 2022
+2 PLAC Bilbao, Community of Madrid, Spain
+1 RESI 
+2 DATE 29 DEC 2027
+2 PLAC Seville, Valencian Community, Spain
+1 RESI 
+2 DATE 11 SEP 2066
+2 PLAC Seville, Castile and León, Spain
+0 @I17594A91@ INDI
+1 NAME Miguel Ángel /Prado/
+2 GIVN Miguel Ángel
+2 SURN Prado
+1 SEX M
+1 BIRT
+2 DATE 04 MAR 2016
+2 PLAC Bilbao, Basque Country, Spain
+1 BAPM
+2 DATE 06 JUL 2016
+2 PLAC Seville, Asturias, Spain
+1 GRAD
+2 DATE 27 NOV 2035
+2 PLAC Madrid, Andalusia, Spain
+1 EDUC High School
+2 DATE 24 FEB 2080
+2 PLAC Bilbao, Asturias, Spain
+1 NATI Spain
+2 DATE 10 SEP 2059
+2 PLAC Málaga, Basque Country, Spain
+1 OCCU Peón de obras públicas y mantenimiento
+2 DATE 08 AUG 2066
+2 PLAC Bilbao, Cantabria, Spain
+1 OCCU Diseñador de productos
+2 DATE 07 DEC 2074
+2 PLAC Bilbao, La Rioja, Spain
+1 OCCU Electrotécnico
+2 DATE 07 FEB 2072
+2 PLAC Las Palmas, Galicia, Spain
+1 RELI Jewish
+2 DATE 24 AUG 2042
+2 PLAC Valencia, Catalonia, Spain
+1 RESI 
+2 DATE 24 MAR 2080
+2 PLAC Valencia, Andalusia, Spain
+1 RESI 
+2 DATE 30 MAY 2058
+2 PLAC Zaragoza, Navarre, Spain
+0 @I44ED3009@ INDI
+1 NAME Ale /Quintanilla/
+2 GIVN Ale
+2 SURN Quintanilla
+1 SEX M
+1 BIRT
+2 DATE 03 JAN 2006
+2 PLAC Barcelona, Castilla-La Mancha, Spain
+1 CONF
+2 DATE 03 DEC 2018
+2 PLAC Córdoba, Community of Madrid, Spain
+1 GRAD
+2 DATE 21 APR 2024
+2 PLAC Madrid, Asturias, Spain
+1 EDUC Master's Degree
+2 DATE 19 NOV 2043
+2 PLAC Madrid, Cantabria, Spain
+1 NATI Spain
+2 DATE 31 MAY 2026
+2 PLAC Murcia, Andalusia, Spain
+1 OCCU Representante comercial
+2 DATE 19 JAN 2046
+2 PLAC Palma, Aragon, Spain
+1 RELI Buddhist
+2 DATE 08 MAR 2060
+2 PLAC Barcelona, Region of Murcia, Spain
+1 RESI 
+2 DATE 06 JUN 2016
+2 PLAC Alicante, Basque Country, Spain
+1 RESI 
+2 DATE 14 JAN 2064
+2 PLAC Córdoba, Region of Murcia, Spain
+1 RESI 
+2 DATE 11 OCT 2027
+2 PLAC Las Palmas, Castile and León, Spain
+1 RESI 
+2 DATE 12 MAR 2029
+2 PLAC Málaga, Canary Islands, Spain
+1 FAMC @FC2B42914@
+0 @I3851D69D@ INDI
+1 NAME Valeria /Avilés/
+2 GIVN Valeria
+2 SURN Avilés
+1 SEX F
+1 BIRT
+2 DATE 10 OCT 1996
+2 PLAC Bilbao, Cantabria, Spain
+1 IMMI
+2 DATE 24 MAR 2013
+2 PLAC Alicante, Cantabria, Spain
+1 EDUC College
+2 DATE 29 OCT 2038
+2 PLAC Zaragoza, Region of Murcia, Spain
+1 NATI Spain
+2 DATE 17 NOV 2019
+2 PLAC Palma, Extremadura, Spain
+1 OCCU Operador de incineradores, instalaciones de tratamiento de agua
+2 DATE 16 FEB 2040
+2 PLAC Madrid, Cantabria, Spain
+1 RELI Buddhist
+2 DATE 14 JAN 2044
+2 PLAC Madrid, Catalonia, Spain
+1 RESI 
+2 DATE 12 AUG 2031
+2 PLAC Madrid, Canary Islands, Spain
+0 @I310AA4E3@ INDI
+1 NAME Ariadna /Carpio/
+2 GIVN Ariadna
+2 SURN Carpio
+1 SEX F
+1 BIRT
+2 DATE 01 SEP 1991
+2 PLAC Las Palmas, Extremadura, Spain
+1 DEAT
+2 DATE 24 APR 2059
+2 PLAC Córdoba, Aragon, Spain
+1 BURI
+2 DATE 26 APR 2059
+2 PLAC Córdoba, Aragon, Spain
+1 GRAD
+2 DATE 04 NOV 2014
+2 PLAC Córdoba, Community of Madrid, Spain
+1 EDUC Doctorate
+2 DATE 03 MAR 2019
+2 PLAC Málaga, Community of Madrid, Spain
+1 NATI Spain
+2 DATE 01 OCT 2056
+2 PLAC Córdoba, Galicia, Spain
+1 OCCU Trabajador ambulante de servicios
+2 DATE 06 SEP 2007
+2 PLAC Las Palmas, Basque Country, Spain
+1 OCCU Agente de maniobras
+2 DATE 21 JUN 2014
+2 PLAC Córdoba, La Rioja, Spain
+1 RELI Buddhist
+2 DATE 07 NOV 2058
+2 PLAC Seville, Castilla-La Mancha, Spain
+1 RESI 
+2 DATE 15 JAN 2042
+2 PLAC Seville, Castile and León, Spain
+1 RESI 
+2 DATE 09 NOV 2016
+2 PLAC Bilbao, Galicia, Spain
+0 @IB7C04457@ INDI
+1 NAME Amor /Sedano/
+2 GIVN Amor
+2 SURN Sedano
+1 SEX M
+1 BIRT
+2 DATE 27 OCT 1994
+2 PLAC Seville, La Rioja, Spain
+1 DEAT
+2 DATE 19 JUN 2014
+2 PLAC Málaga, Andalusia, Spain
+1 BAPM
+2 DATE 03 JAN 1996
+2 PLAC Madrid, Castile and León, Spain
+1 EDUC Doctorate
+2 DATE 12 JAN 2012
+2 PLAC Valencia, Andalusia, Spain
+1 OCCU Analista de sistemas
+2 DATE 28 MAR 2011
+2 PLAC Málaga, Canary Islands, Spain
+1 OCCU Redactor de carteles, pintor decorativos y grabador
+2 DATE 30 OCT 2012
+2 PLAC Bilbao, Andalusia, Spain
+1 RELI Orthodox
+2 DATE 08 NOV 2013
+2 PLAC Alicante, Navarre, Spain
+1 RESI 
+2 DATE 09 NOV 2011
+2 PLAC Zaragoza, Galicia, Spain
+1 RESI 
+2 DATE 29 FEB 1996
+2 PLAC Zaragoza, Valencian Community, Spain
+1 RESI 
+2 DATE 16 JUL 2013
+2 PLAC Madrid, Asturias, Spain
+1 RESI 
+2 DATE 02 MAR 2010
+2 PLAC Córdoba, Extremadura, Spain
+1 FAMC @FA5BAA98E@
+0 @I509CB857@ INDI
+1 NAME Manu /Mendez/
+2 GIVN Manu
+2 SURN Mendez
+1 SEX M
+1 BIRT
+2 DATE 06 DEC 1984
+2 PLAC Zaragoza, Aragon, Spain
+1 EDUC Master's Degree
+2 DATE 29 JAN 2025
+2 PLAC Murcia, Cantabria, Spain
+1 NATI Spain
+2 DATE 29 NOV 2005
+2 PLAC Barcelona, Galicia, Spain
+1 OCCU Nutricionista
+2 DATE 16 APR 2022
+2 PLAC Seville, Valencian Community, Spain
+1 OCCU Profesor de formación profesional
+2 DATE 13 AUG 2050
+2 PLAC Madrid, Aragon, Spain
+1 OCCU Ggeofísico
+2 DATE 22 SEP 2040
+2 PLAC Alicante, Aragon, Spain
+1 RELI Orthodox
+2 DATE 18 AUG 2011
+2 PLAC Las Palmas, Galicia, Spain
+1 RESI 
+2 DATE 05 JAN 2014
+2 PLAC Alicante, Region of Murcia, Spain
+1 RESI 
+2 DATE 05 MAY 2045
+2 PLAC Valencia, La Rioja, Spain
+1 RESI 
+2 DATE 19 MAR 2015
+2 PLAC Valencia, Galicia, Spain
+0 @IC44AAF47@ INDI
+1 NAME Virginia /Morcillo/
+2 GIVN Virginia
+2 SURN Morcillo
+1 SEX F
+1 BIRT
+2 DATE 20 MAR 2013
+2 PLAC Palma, Catalonia, Spain
+1 IMMI
+2 DATE 19 NOV 2044
+2 PLAC Las Palmas, Valencian Community, Spain
+1 NATI Spain
+2 DATE 30 APR 2075
+2 PLAC Málaga, Extremadura, Spain
+1 OCCU Profesional en redes de computadores
+2 DATE 04 AUG 2050
+2 PLAC Seville, Navarre, Spain
+1 OCCU Agente de bolsa
+2 DATE 20 AUG 2066
+2 PLAC Málaga, Basque Country, Spain
+1 RELI Catholic
+2 DATE 09 OCT 2055
+2 PLAC Las Palmas, Cantabria, Spain
+1 RESI 
+2 DATE 10 OCT 2054
+2 PLAC Alicante, Balearic Islands, Spain
+1 RESI 
+2 DATE 11 MAR 2035
+2 PLAC Seville, Navarre, Spain
+1 RESI 
+2 DATE 07 FEB 2055
+2 PLAC Zaragoza, Aragon, Spain
+1 RESI 
+2 DATE 30 DEC 2028
+2 PLAC Madrid, Region of Murcia, Spain
+0 @IC0D8915C@ INDI
+1 NAME Cornelio /Bertrán/
+2 GIVN Cornelio
+2 SURN Bertrán
+1 SEX M
+1 BIRT
+2 DATE 28 FEB 1989
+2 PLAC Las Palmas, La Rioja, Spain
+1 BAPM
+2 DATE 30 MAR 1989
+2 PLAC Palma, Valencian Community, Spain
+1 GRAD
+2 DATE 23 MAY 2008
+2 PLAC Córdoba, Castilla-La Mancha, Spain
+1 IMMI
+2 DATE 22 SEP 2027
+2 PLAC Murcia, Region of Murcia, Spain
+1 EDUC Bachelor's Degree
+2 DATE 02 JUN 2012
+2 PLAC Córdoba, Cantabria, Spain
+1 NATI Spain
+2 DATE 28 OCT 2038
+2 PLAC Las Palmas, Community of Madrid, Spain
+1 OCCU Ingeniero mecánico
+2 DATE 24 JAN 2037
+2 PLAC Las Palmas, Catalonia, Spain
+1 RESI 
+2 DATE 05 FEB 2057
+2 PLAC Seville, Aragon, Spain
+0 @FC2B42914@ FAM
+1 WIFE @I092F6FB7@
+1 CHIL @I44ED3009@
+0 @FA5BAA98E@ FAM
+1 WIFE @I6E0BCF68@
+1 CHIL @IB7C04457@
+0 TRLR
