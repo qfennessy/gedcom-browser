@@ -8,8 +8,6 @@ NAME_MAPPINGS = {
     # Primary name in the example
     "Patrick": "John",
     "Quentin": "Williams",
-    "Fennessy": "Fitzgerald",
-    
     # Other common names in the files (for consistency)
     "Smith": "Miller",
     "Jones": "Baker",
@@ -17,7 +15,7 @@ NAME_MAPPINGS = {
     "Wilson": "Harris",
     "Taylor": "Walker",
     "Johnson": "Brown",
-    "Williams": "Davis", 
+    "Williams": "Davis",
     "Parker": "Lewis",
     "Thomas": "Martin",
     "Margaret": "Elizabeth",
@@ -25,7 +23,7 @@ NAME_MAPPINGS = {
     "James": "Robert",
     "Jennifer": "Catherine",
     "Michael": "Christopher",
-    "Emily": "Sophia", 
+    "Emily": "Sophia",
     "Daniel": "Matthew",
     "Robert": "William",
     "Elizabeth": "Olivia",
@@ -50,7 +48,6 @@ PLACE_MAPPINGS = {
     "Memphis": "River City",
     "MIT Cambridge": "University City",
     "Silicon Valley": "Tech Valley",
-    
     # States
     "NY": "MC",
     "MA": "HC",
@@ -64,20 +61,21 @@ PLACE_MAPPINGS = {
     "TN": "MT",
 }
 
+
 def anonymize_name(name):
     """
     Anonymize a personal name consistently.
-    
+
     Args:
         name: The original name string
-        
+
     Returns:
         The anonymized name
     """
     # Special case for the full name pattern in the example
     if "Patrick" in name and "Quentin" in name and "Fennessy" in name:
         return name.replace("Patrick Quentin Fennessy", "John Williams Fitzgerald")
-    
+
     # Handle case insensitive replacements for Fennessy -> Fitzgerald specifically
     if "fennessy" in name.lower():
         # Case-preserving replacement
@@ -86,9 +84,9 @@ def anonymize_name(name):
         pattern = "fennessy"
         replacement = "Fitzgerald"
         pattern_lower = pattern.lower()
-        
+
         while idx < len(name):
-            if name[idx:idx+len(pattern_lower)].lower() == pattern_lower:
+            if name[idx : idx + len(pattern_lower)].lower() == pattern_lower:
                 # If pattern is found, replace it with the replacement
                 result += replacement
                 idx += len(pattern_lower)
@@ -97,7 +95,7 @@ def anonymize_name(name):
                 result += name[idx]
                 idx += 1
         return result
-    
+
     # Handle GEDCOM name format with slashes around surname (e.g., "John /Smith/")
     if "/" in name:
         # Extract parts of the name
@@ -106,14 +104,14 @@ def anonymize_name(name):
             given_names = parts[0].strip()
             surname = parts[1].strip()
             rest = "/".join(parts[2:])
-            
+
             # Anonymize given names and surname
             for original, replacement in NAME_MAPPINGS.items():
                 given_names = given_names.replace(original, replacement)
                 surname = surname.replace(original, replacement)
-            
+
             return f"{given_names}/{surname}/{rest}"
-    
+
     # Handle normal name format
     result = name
     for original, replacement in NAME_MAPPINGS.items():
@@ -124,23 +122,30 @@ def anonymize_name(name):
             pattern_lower = pattern.lower()
             pattern_idx = result.lower().find(pattern_lower)
             while pattern_idx != -1:
-                result = result[:pattern_idx] + replacement + result[pattern_idx + len(pattern):]
-                pattern_idx = result.lower().find(pattern_lower, pattern_idx + len(replacement))
-    
+                result = (
+                    result[:pattern_idx]
+                    + replacement
+                    + result[pattern_idx + len(pattern) :]
+                )
+                pattern_idx = result.lower().find(
+                    pattern_lower, pattern_idx + len(replacement)
+                )
+
     return result
+
 
 def anonymize_place(place):
     """
     Anonymize a place name consistently.
-    
+
     Args:
         place: The original place string
-        
+
     Returns:
         The anonymized place
     """
     result = place
     for original, replacement in PLACE_MAPPINGS.items():
         result = result.replace(original, replacement)
-    
+
     return result

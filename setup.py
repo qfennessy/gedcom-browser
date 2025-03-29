@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
     name="gedcom-browser",
@@ -7,10 +7,10 @@ setup(
     author="Quentin",
     packages=find_packages(),
     entry_points={
-        'console_scripts': [
-            'gedcom-browser=main:main',
+        "console_scripts": [
+            "gedcom-browser=main:main",
         ],
     },
     install_requires=[],
-    python_requires='>=3.7',
+    python_requires=">=3.7",
 )
