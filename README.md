@@ -117,6 +117,12 @@ python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num
 
 # Generate a GEDCOM 7.0 file
 python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num-people 30 --num-generations 3 --v70 --output test_70.ged
+
+# Generate a GEDCOM file with Hispanic naming conventions
+python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num-people 50 --num-generations 3 --culture hispanic --output hispanic_families.ged
+
+# Generate a GEDCOM file with Spanish names and conventions
+python create-test-gedcom.py --start-date 1900-01-01 --end-date 2000-01-01 --num-people 50 --num-generations 3 --region es_ES --output spanish_families.ged
 ```
 
 The generator supports the following options:
@@ -124,6 +130,13 @@ The generator supports the following options:
 - `--v551`: GEDCOM 5.5.1 (ASCII encoding, with FORM tag) - Default if no version specified
 - `--v555`: GEDCOM 5.5.5 (UTF-8 with BOM, stricter validation)
 - `--v70`: GEDCOM 7.0 (UTF-8 encoding, latest standard)
+- `--culture`: Controls surname inheritance patterns (choices: western, hispanic, asian, nordic)
+- `--region`: Sets the locale for name generation (e.g., "es_ES", "en_US", "zh_CN")
+
+Family naming conventions respect cultural patterns:
+- Western/Asian: Children typically inherit the father's surname
+- Hispanic/Spanish: Children often use both parents' surnames (father-mother)
+- Nordic: Traditional patronymic naming (simplified implementation)
 
 Generated files contain realistic individuals with events, attributes, and family relationships. Each file is encoded appropriately for its GEDCOM version.
 

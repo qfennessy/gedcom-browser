@@ -109,6 +109,23 @@ RELATIONSHIP_CHANCES = {
     "child_spacing": 2.5  # Average years between children
 }
 
+# Cultural naming patterns
+CULTURAL_PATTERNS = {
+    # East Asian - children typically take father's surname
+    "asian": ["zh_CN", "zh_TW", "ja_JP", "ko_KR"],
+    
+    # Hispanic/Spanish - children often take both parents' surnames
+    # Traditional: Father's surname + Mother's surname
+    "hispanic": ["es_ES", "es_MX", "es_AR", "es_CO", "pt_BR"],
+    
+    # Nordic - some countries traditionally use patronymics
+    # Not fully supported yet, but prepared for future enhancement
+    "nordic": ["is_IS", "no_NO", "da_DK", "sv_SE"],
+    
+    # Default Western - children typically take father's surname
+    "western": ["en_US", "en_GB", "fr_FR", "de_DE", "it_IT"]
+}
+
 # Event probabilities
 EVENT_CHANCES = {
     "BIRT": 1.0,     # Everyone has a birth record
@@ -136,22 +153,28 @@ ATTRIBUTE_CHANCES = {
 class Person:
     """Class to represent a person with GEDCOM attributes."""
     
-    def __init__(self, faker, birth_date=None, death_date=None, gender=None, region=None):
+    def __init__(self, faker, birth_date=None, death_date=None, gender=None, region=None, 
+                 given_name=None, surname=None, cultural_background=None):
         """Initialize a person with random attributes."""
         self.id = f"I{uuid.uuid4().hex[:8].upper()}"
         self.faker = faker
         self.region = region
+        self.cultural_background = cultural_background or self._determine_cultural_background(region)
         
         # Set gender, 50% chance of each by default
         self.gender = gender if gender is not None else random.choice(['M', 'F'])
         
-        # Generate a name appropriate for the gender
-        if self.gender == 'M':
-            self.given_name = faker.first_name_male()
-            self.surname = faker.last_name()
+        # Use provided name components or generate appropriate ones for gender
+        if given_name:
+            self.given_name = given_name
         else:
-            self.given_name = faker.first_name_female()
-            self.surname = faker.last_name()
+            if self.gender == 'M':
+                self.given_name = faker.first_name_male()
+            else:
+                self.given_name = faker.first_name_female()
+        
+        # Use provided surname or generate one
+        self.surname = surname or faker.last_name()
         
         # Set birth and death dates
         self.birth_date = birth_date or self._generate_date()
@@ -169,6 +192,17 @@ class Person:
         # Family relationships
         self.parent_family = None
         self.spouse_families = []
+        
+    def _determine_cultural_background(self, region):
+        """Determine cultural background based on region."""
+        if not region:
+            return "western"  # Default
+            
+        for culture, regions in CULTURAL_PATTERNS.items():
+            if region in regions:
+                return culture
+                
+        return "western"  # Default to western naming conventions
     
     def _generate_date(self):
         """Generate a random date for the person."""
@@ -320,6 +354,82 @@ class Person:
         
         return attributes
     
+    def generate_child_surname(self, father=None, mother=None):
+        """
+        Generate an appropriate surname for a child based on cultural background.
+        
+        Different cultures have different naming conventions:
+        - Western: typically father's surname
+        - Hispanic/Spanish: often father's surname + mother's surname
+        - East Asian: usually father's surname
+        """
+        if not father and not mother:
+            # No parents, use a random surname
+            return self.faker.last_name()
+            
+        # Default for many cultures: father's surname if available, otherwise mother's
+        if self.cultural_background == "western" or self.cultural_background == "asian":
+            if father:
+                return father.surname
+            elif mother:
+                return mother.surname
+            
+        # Hispanic/Spanish naming conventions (simplified)
+        elif self.cultural_background == "hispanic":
+            if father and mother:
+                # In Hispanic convention, typically: father's surname + mother's surname
+                # With 80% probability use compound surname, 20% just father's
+                if random.random() < 0.8:
+                    return f"{father.surname}-{mother.surname}"
+                else:
+                    return father.surname
+            elif father:
+                return father.surname
+            elif mother:
+                return mother.surname
+                
+        # Nordic naming (simplified implementation for now)
+        elif self.cultural_background == "nordic":
+            if father:
+                return father.surname
+            elif mother:
+                return mother.surname
+                
+        # Fallback for any other case
+        if father:
+            return father.surname
+        elif mother:
+            return mother.surname
+        else:
+            return self.faker.last_name()
+            
+    @classmethod
+    def create_child(cls, faker, father, mother, birth_date, gender=None, region=None, cultural_background=None):
+        """Create a child with appropriate surname based on parents' cultural background."""
+        # Determine region and cultural background 
+        # Prefer the specified region, otherwise use father's or mother's
+        child_region = region or (father.region if father else (mother.region if mother else None))
+        
+        # Determine cultural background
+        # First use the explicitly specified one, then try to get from parents, then infer from region
+        if cultural_background:
+            child_culture = cultural_background
+        elif father and father.cultural_background:
+            child_culture = father.cultural_background
+        elif mother and mother.cultural_background:
+            child_culture = mother.cultural_background
+        else:
+            child_culture = None  # Will be determined from region in the constructor
+        
+        # Create the child with no surname yet
+        child = cls(faker=faker, birth_date=birth_date, gender=gender, region=child_region, 
+                   cultural_background=child_culture)
+        
+        # Now set the surname based on cultural conventions
+        child.surname = child.generate_child_surname(father, mother)
+        
+        return child
+
     def to_gedcom(self):
         """Convert person to GEDCOM format."""
         lines = [f"0 @{self.id}@ INDI"]
@@ -453,7 +563,7 @@ class GedcomGenerator:
     """Generate random GEDCOM files."""
     
     def __init__(self, start_date, end_date, num_people, num_generations, 
-                 seed=None, region=None, version="5.5.1"):
+                 seed=None, region=None, version="5.5.1", culture=None):
         """Initialize the generator with parameters."""
         self.start_date = start_date
         self.end_date = end_date
@@ -461,6 +571,7 @@ class GedcomGenerator:
         self.num_generations = num_generations
         self.region = region
         self.version = version
+        self.culture = culture
         
         # Set random seed if provided
         if seed is not None:
@@ -529,8 +640,13 @@ class GedcomGenerator:
             days = random.randint(0, (gen_end - gen_start).days)
             birth_date = gen_start + timedelta(days=days)
             
-            # Create person
-            person = Person(self.faker, birth_date=birth_date, region=self.region)
+            # Create person with the specified culture if provided
+            person = Person(
+                self.faker, 
+                birth_date=birth_date, 
+                region=self.region,
+                cultural_background=self.culture  # This will override region-based culture if provided
+            )
             self.individuals.append(person)
             self.generations[generation].append(person)
     
@@ -575,12 +691,41 @@ class GedcomGenerator:
                     start_idx = int(i * children_per_family)
                     assigned_children = next_gen[start_idx:start_idx + num_children]
                     
-                    for child in assigned_children:
+                    for i, child in enumerate(assigned_children):
                         # Make sure child is younger than parents
                         if child.birth_date > husband.birth_date + timedelta(days=15*365) and \
                            child.birth_date > wife.birth_date + timedelta(days=15*365):
-                            family.children.append(child)
-                            child.parent_family = family.id
+                            # Create a new child with appropriate surname based on parents
+                            new_child = Person.create_child(
+                                faker=self.faker,
+                                father=husband,
+                                mother=wife,
+                                birth_date=child.birth_date,
+                                gender=child.gender,
+                                region=self.region,
+                                cultural_background=self.culture
+                            )
+                            
+                            # Copy ID and other properties from original child
+                            new_child.id = child.id
+                            new_child.death_date = child.death_date
+                            new_child.events = child.events
+                            new_child.attributes = child.attributes
+                            
+                            # Replace the original child in the individuals list
+                            index = self.individuals.index(child)
+                            self.individuals[index] = new_child
+                            
+                            # Replace in the generations list too
+                            gen_index = self.generations[gen+1].index(child)
+                            self.generations[gen+1][gen_index] = new_child
+                            
+                            # Add to family
+                            family.children.append(new_child)
+                            new_child.parent_family = family.id
+                            
+                            # Update the assigned_children list for consistent handling
+                            assigned_children[i] = new_child
             
             # Look for unmarried individuals with children
             unmarried_with_children = [p for p in next_gen if not p.parent_family]
@@ -606,10 +751,36 @@ class GedcomGenerator:
                         self.families.append(family)
                         parent.spouse_families.append(family.id)
                         
-                        # Add child to family
+                        # Add child to family with appropriate surname
                         if child.birth_date > parent.birth_date + timedelta(days=15*365):
-                            family.children.append(child)
-                            child.parent_family = family.id
+                            # Create new child with parent's surname following cultural convention
+                            new_child = Person.create_child(
+                                faker=self.faker,
+                                father=parent if parent.gender == 'M' else None,
+                                mother=parent if parent.gender == 'F' else None,
+                                birth_date=child.birth_date,
+                                gender=child.gender,
+                                region=self.region,
+                                cultural_background=self.culture
+                            )
+                            
+                            # Copy ID and other properties from original child
+                            new_child.id = child.id
+                            new_child.death_date = child.death_date
+                            new_child.events = child.events
+                            new_child.attributes = child.attributes
+                            
+                            # Replace the original child
+                            index = self.individuals.index(child)
+                            self.individuals[index] = new_child
+                            
+                            # Replace in generations too
+                            gen_index = self.generations[gen+1].index(child)
+                            self.generations[gen+1][gen_index] = new_child
+                            
+                            # Add to family
+                            family.children.append(new_child)
+                            new_child.parent_family = family.id
     
     def _generate_gedcom(self):
         """Generate GEDCOM content."""
@@ -699,6 +870,8 @@ def main():
                         help='Random seed for reproducible generation')
     parser.add_argument('--region', type=str,
                         help='Country/region for names (e.g., "en_US", "fr_FR", "es_ES")')
+    parser.add_argument('--culture', type=str, choices=['western', 'hispanic', 'asian', 'nordic'],
+                        help='Cultural naming convention to use (default: based on region)')
     parser.add_argument('--output', type=str, default='random_gedcom.ged',
                         help='Output filename (default: random_gedcom.ged)')
     
@@ -745,7 +918,8 @@ def main():
         num_generations=args.num_generations,
         seed=args.seed,
         region=args.region,
-        version=gedcom_version
+        version=gedcom_version,
+        culture=args.culture
     )
     
     generator.save_to_file(args.output)
