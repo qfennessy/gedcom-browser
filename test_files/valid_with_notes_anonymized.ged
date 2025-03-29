@@ -1,0 +1,50 @@
+﻿0 HEAD
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 SUBM @S1@
+0 @S1@ SUBM
+1 NAME Test User
+0 @I1@ INDI
+1 NAME William/Brown/
+1 SEX M
+1 BIRT
+2 DATE 12 DEC 1930
+2 PLAC Central City, HC
+1 DEAT
+2 DATE 15 NOV 2010
+2 PLAC Hill County, HC
+1 OCCU Musician
+2 DATE FROM 1950 TO 1995
+2 PLAC Music Town, MT
+1 NOTE This is a note about Robert Johnson
+2 CONC  that continues on the same line.
+2 CONT This is a second line of the note.
+2 CONT And here is a third line.
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Olivia/Davis/
+1 SEX F
+1 BIRT
+2 DATE 5 APR 1935
+2 PLAC River City, MT
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Joseph/Brown/
+1 SEX M
+1 BIRT
+2 DATE 30 JUN 1960
+2 PLAC Music Town, MT
+1 FAMC @F1@
+1 NOTE David followed in his father's footsteps
+2 CONT and became a musician as well.
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 MARR
+2 DATE 10 SEP 1958
+2 PLAC Music Town, MT
+1 NOTE They met at a music festival in 1957
+0 TRLR

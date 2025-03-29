@@ -1,0 +1,116 @@
+﻿0 HEAD
+1 GEDC
+2 VERS 5.5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 SUBM @S1@
+0 @S1@ SUBM
+1 NAME Test User
+0 @I1@ INDI
+1 NAME Martin/Thompson/
+1 SEX M
+1 BIRT
+2 DATE 25 MAY 1948
+2 PLAC Rainview, RV
+1 DEAT
+2 DATE 12 JAN 2020
+2 PLAC Greenvale, GV
+1 OCCU Software Engineer
+2 DATE FROM 1970 TO 2010
+2 PLAC Tech Valley, BC
+1 EDUC Computer Science
+2 DATE FROM 1966 TO 1970
+2 PLAC MIT, Cambridge, HC
+1 RESI
+2 DATE FROM 1948 TO 1966
+2 PLAC Rainview, RV
+1 RESI
+2 DATE FROM 1970 TO 2020
+2 PLAC Bay City, BC
+1 FAMS @F1@
+1 FAMS @F2@
+1 NOTE Pioneer in early computer programming
+2 CONC  and artificial intelligence research.
+0 @I2@ INDI
+1 NAME Olivia/Harris/
+1 SEX F
+1 BIRT
+2 DATE 12 AUG 1950
+2 PLAC Laketown, LT
+1 DEAT
+2 DATE 30 JUN 1990
+2 PLAC Bay City, BC
+1 OCCU Mathematician
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Catherine/Walker/
+1 SEX F
+1 BIRT
+2 DATE 5 OCT 1955
+2 PLAC Metro City, MC
+1 OCCU Biologist
+1 FAMS @F2@
+0 @I4@ INDI
+1 NAME William/Thompson/
+1 SEX M
+1 BIRT
+2 DATE 10 MAR 1975
+2 PLAC Bay City, BC
+1 OCCU Doctor
+1 FAMC @F1@
+1 FAMS @F3@
+0 @I5@ INDI
+1 NAME Catherine/Thompson/
+1 SEX F
+1 BIRT
+2 DATE 15 APR 1977
+2 PLAC Bay City, BC
+1 OCCU Lawyer
+1 FAMC @F1@
+0 @I6@ INDI
+1 NAME Christopher/Thompson/
+1 SEX M
+1 BIRT
+2 DATE 20 NOV 1995
+2 PLAC Coastal City, BC
+1 OCCU Student
+1 FAMC @F2@
+0 @I7@ INDI
+1 NAME Sophia/Lewis/
+1 SEX F
+1 BIRT
+2 DATE 8 JUL 1978
+2 PLAC Mountain View, MV
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME Matthew/Thompson/
+1 SEX M
+1 BIRT
+2 DATE 3 FEB 2005
+2 PLAC Beach City, BC
+1 FAMC @F3@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I4@
+1 CHIL @I5@
+1 MARR
+2 DATE 12 JUN 1974
+2 PLAC Bay City, BC
+1 DIV
+2 DATE 10 NOV 1992
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I3@
+1 CHIL @I6@
+1 MARR
+2 DATE 5 MAY 1994
+2 PLAC Valley Town, BC
+0 @F3@ FAM
+1 HUSB @I4@
+1 WIFE @I7@
+1 CHIL @I8@
+1 MARR
+2 DATE 20 AUG 2003
+2 PLAC Beach City, BC
+0 TRLR
