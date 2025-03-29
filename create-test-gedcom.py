@@ -126,6 +126,121 @@ CULTURAL_PATTERNS = {
     "western": ["en_US", "en_GB", "fr_FR", "de_DE", "it_IT"]
 }
 
+# Geographic data for realistic place names
+GEOGRAPHIC_DATA = {
+    # North America
+    "en_US": {
+        "cities": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", 
+                  "San Antonio", "San Diego", "Dallas", "San Jose", "Austin", "Boston", 
+                  "Seattle", "Denver", "Atlanta", "Portland", "Miami", "Nashville", "New Orleans"],
+        "states": ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", 
+                  "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", 
+                  "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
+                  "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", 
+                  "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", 
+                  "New Hampshire", "New Jersey", "New Mexico", "New York", 
+                  "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", 
+                  "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", 
+                  "Tennessee", "Texas", "Utah", "Vermont", "Virginia", 
+                  "Washington", "West Virginia", "Wisconsin", "Wyoming"],
+        "country": "United States"
+    },
+    "en_CA": {
+        "cities": ["Toronto", "Montreal", "Vancouver", "Calgary", "Edmonton", "Ottawa", 
+                  "Winnipeg", "Quebec City", "Hamilton", "Halifax", "Victoria"],
+        "states": ["Alberta", "British Columbia", "Manitoba", "New Brunswick", 
+                  "Newfoundland and Labrador", "Nova Scotia", "Ontario", 
+                  "Prince Edward Island", "Quebec", "Saskatchewan"],
+        "country": "Canada"
+    },
+    
+    # Europe
+    "en_GB": {
+        "cities": ["London", "Birmingham", "Manchester", "Glasgow", "Liverpool", 
+                  "Edinburgh", "Leeds", "Sheffield", "Bristol", "Cardiff", "Belfast", "Newcastle"],
+        "states": ["England", "Scotland", "Wales", "Northern Ireland"],
+        "country": "United Kingdom"
+    },
+    "fr_FR": {
+        "cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Nantes", 
+                  "Strasbourg", "Montpellier", "Bordeaux", "Lille", "Rennes"],
+        "states": ["Île-de-France", "Provence-Alpes-Côte d'Azur", "Auvergne-Rhône-Alpes", 
+                  "Occitanie", "Hauts-de-France", "Normandie", "Grand Est", 
+                  "Pays de la Loire", "Nouvelle-Aquitaine", "Bretagne", "Bourgogne-Franche-Comté"],
+        "country": "France"
+    },
+    "de_DE": {
+        "cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", 
+                  "Düsseldorf", "Leipzig", "Dortmund", "Dresden", "Hanover", "Nuremberg"],
+        "states": ["Baden-Württemberg", "Bavaria", "Berlin", "Brandenburg", "Bremen", 
+                  "Hamburg", "Hesse", "Lower Saxony", "Mecklenburg-Western Pomerania", 
+                  "North Rhine-Westphalia", "Rhineland-Palatinate", "Saarland", 
+                  "Saxony", "Saxony-Anhalt", "Schleswig-Holstein", "Thuringia"],
+        "country": "Germany"
+    },
+    "it_IT": {
+        "cities": ["Rome", "Milan", "Naples", "Turin", "Palermo", "Genoa", 
+                  "Bologna", "Florence", "Bari", "Venice", "Verona", "Messina"],
+        "states": ["Lombardy", "Lazio", "Campania", "Sicily", "Veneto", "Piedmont", 
+                  "Emilia-Romagna", "Tuscany", "Puglia", "Calabria", "Sardinia", 
+                  "Liguria", "Marche", "Abruzzo", "Friuli-Venezia Giulia", "Trentino-South Tyrol"],
+        "country": "Italy"
+    },
+    "es_ES": {
+        "cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Zaragoza", "Málaga", 
+                  "Murcia", "Palma", "Las Palmas", "Bilbao", "Alicante", "Córdoba"],
+        "states": ["Andalusia", "Catalonia", "Community of Madrid", "Valencian Community", 
+                  "Galicia", "Castile and León", "Basque Country", "Castilla-La Mancha", 
+                  "Canary Islands", "Region of Murcia", "Aragon", "Extremadura", 
+                  "Balearic Islands", "Asturias", "Navarre", "Cantabria", "La Rioja"],
+        "country": "Spain"
+    },
+    "es_MX": {
+        "cities": ["Mexico City", "Guadalajara", "Monterrey", "Puebla", "Tijuana", 
+                  "León", "Ciudad Juárez", "Cancún", "Mérida", "Querétaro"],
+        "states": ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", 
+                  "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", 
+                  "Guerrero", "Hidalgo", "Jalisco", "México", "Michoacán", "Morelos", 
+                  "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", 
+                  "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", 
+                  "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas"],
+        "country": "Mexico"
+    },
+    
+    # Asia
+    "zh_CN": {
+        "cities": ["Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Tianjin", 
+                  "Chongqing", "Wuhan", "Chengdu", "Hangzhou", "Xi'an", "Nanjing"],
+        "states": ["Anhui", "Beijing", "Chongqing", "Fujian", "Gansu", "Guangdong", 
+                  "Guangxi", "Guizhou", "Hainan", "Hebei", "Heilongjiang", "Henan", 
+                  "Hong Kong", "Hubei", "Hunan", "Inner Mongolia", "Jiangsu", 
+                  "Jiangxi", "Jilin", "Liaoning", "Macau", "Ningxia", "Qinghai", 
+                  "Shaanxi", "Shandong", "Shanghai", "Shanxi", "Sichuan", "Tianjin", 
+                  "Tibet", "Xinjiang", "Yunnan", "Zhejiang"],
+        "country": "China"
+    },
+    "ja_JP": {
+        "cities": ["Tokyo", "Yokohama", "Osaka", "Nagoya", "Sapporo", "Kobe", 
+                  "Kyoto", "Fukuoka", "Kawasaki", "Saitama", "Hiroshima", "Sendai"],
+        "states": ["Hokkaido", "Aomori", "Iwate", "Miyagi", "Akita", "Yamagata", 
+                  "Fukushima", "Ibaraki", "Tochigi", "Gunma", "Saitama", "Chiba", 
+                  "Tokyo", "Kanagawa", "Niigata", "Toyama", "Ishikawa", "Fukui", 
+                  "Yamanashi", "Nagano", "Gifu", "Shizuoka", "Aichi", "Mie", 
+                  "Shiga", "Kyoto", "Osaka", "Hyogo", "Nara", "Wakayama", 
+                  "Tottori", "Shimane", "Okayama", "Hiroshima", "Yamaguchi", 
+                  "Tokushima", "Kagawa", "Ehime", "Kochi", "Fukuoka", "Saga", 
+                  "Nagasaki", "Kumamoto", "Oita", "Miyazaki", "Kagoshima", "Okinawa"],
+        "country": "Japan"
+    },
+    
+    # Default for any other region
+    "default": {
+        "cities": ["City", "Town", "Village"],
+        "states": ["State", "Province", "Region", "District"],
+        "country": "Country"
+    }
+}
+
 # Event probabilities
 EVENT_CHANCES = {
     "BIRT": 1.0,     # Everyone has a birth record
@@ -193,6 +308,32 @@ class Person:
         self.parent_family = None
         self.spouse_families = []
         
+    def _generate_place(self):
+        """Generate a realistic place name based on region."""
+        region = self.region or "default"
+        
+        # Get geographic data for the region, fall back to default if not found
+        geo_data = GEOGRAPHIC_DATA.get(region)
+        if not geo_data:
+            # Try to match a similar region (e.g., if en_AU isn't defined, fall back to en_US)
+            language_code = region.split('_')[0] if '_' in region else ""
+            for r in GEOGRAPHIC_DATA:
+                if r.startswith(language_code + '_'):
+                    geo_data = GEOGRAPHIC_DATA.get(r)
+                    break
+                    
+        # If still no match, use default
+        if not geo_data:
+            geo_data = GEOGRAPHIC_DATA["default"]
+        
+        # Select random city, state, and country from the region's data
+        city = random.choice(geo_data["cities"])
+        state = random.choice(geo_data["states"])
+        country = geo_data["country"]
+        
+        # Return formatted place (city, state, country)
+        return f"{city}, {state}, {country}"
+        
     def _determine_cultural_background(self, region):
         """Determine cultural background based on region."""
         if not region:
@@ -215,7 +356,7 @@ class Person:
         events = []
         
         # Birth is always included
-        birth_place = self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country()
+        birth_place = self._generate_place()
         events.append({
             "tag": "BIRT",
             "date": self.birth_date.strftime("%d %b %Y").upper(),
@@ -224,7 +365,7 @@ class Person:
         
         # Death if applicable
         if self.death_date:
-            death_place = self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country()
+            death_place = self._generate_place()
             events.append({
                 "tag": "DEAT",
                 "date": self.death_date.strftime("%d %b %Y").upper(),
@@ -278,7 +419,7 @@ class Person:
                         events.append({
                             "tag": tag,
                             "date": event_date.strftime("%d %b %Y").upper(),
-                            "place": self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country()
+                            "place": self._generate_place()
                         })
                         continue
                     else:
@@ -293,7 +434,7 @@ class Person:
                 events.append({
                     "tag": tag,
                     "date": event_date.strftime("%d %b %Y").upper(),
-                    "place": self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country()
+                    "place": self._generate_place()
                 })
         
         return events
@@ -332,7 +473,23 @@ class Person:
                             "Bachelor's Degree", "Master's Degree", "Doctorate"
                         ])
                     elif tag == "NATI":
-                        value = self.faker.country()
+                        # Use the country from the region if available
+                        region = self.region or "default"
+                        geo_data = GEOGRAPHIC_DATA.get(region)
+                        
+                        if not geo_data:
+                            # Try to match a similar region (e.g., if en_AU isn't defined, fall back to en_US)
+                            language_code = region.split('_')[0] if '_' in region else ""
+                            for r in GEOGRAPHIC_DATA:
+                                if r.startswith(language_code + '_'):
+                                    geo_data = GEOGRAPHIC_DATA.get(r)
+                                    break
+                        
+                        # If still no match, use default
+                        if not geo_data:
+                            geo_data = GEOGRAPHIC_DATA["default"]
+                            
+                        value = geo_data["country"]
                     elif tag == "OCCU":
                         value = self.faker.job()
                     elif tag == "RELI":
@@ -348,7 +505,7 @@ class Person:
                     attributes.append({
                         "tag": tag,
                         "date": attr_date.strftime("%d %b %Y").upper(),
-                        "place": self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country(),
+                        "place": self._generate_place(),
                         "value": value
                     })
         
@@ -478,6 +635,22 @@ class Family:
         self.children = []
         self.events = self._generate_events()
     
+    def _generate_place(self):
+        """Generate a realistic place based on husband's or wife's region."""
+        # Use the husband's or wife's region for consistency
+        if self.husband:
+            return self.husband._generate_place()
+        elif self.wife:
+            return self.wife._generate_place()
+        else:
+            # If neither spouse exists, use a default place
+            region = "default"
+            geo_data = GEOGRAPHIC_DATA.get(region, GEOGRAPHIC_DATA["default"])
+            city = random.choice(geo_data["cities"])
+            state = random.choice(geo_data["states"])
+            country = geo_data["country"]
+            return f"{city}, {state}, {country}"
+    
     def _generate_events(self):
         """Generate family events like marriage and divorce."""
         events = []
@@ -509,7 +682,7 @@ class Family:
                     marriage_date = earliest_marriage + timedelta(days=marriage_days)
                     
                     # Add marriage event
-                    marriage_place = self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country()
+                    marriage_place = self._generate_place()
                     events.append({
                         "tag": "MARR",
                         "date": marriage_date.strftime("%d %b %Y").upper(),
@@ -528,7 +701,7 @@ class Family:
                             events.append({
                                 "tag": "DIV",
                                 "date": divorce_date.strftime("%d %b %Y").upper(),
-                                "place": self.faker.city() + ", " + self.faker.state() + ", " + self.faker.country()
+                                "place": self._generate_place()
                             })
         
         return events
